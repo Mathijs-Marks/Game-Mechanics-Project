@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
+
     // Update is called once per frame
     void Update()
     {
@@ -17,4 +18,10 @@ public class InputManager : MonoBehaviour
     {
 
     }
+
+    void MoveLeft()
+    {
+
+    }
+
 }
