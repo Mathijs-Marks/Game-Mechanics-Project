@@ -1,0 +1,5469 @@
+fileFormatVersion: 2
+guid: 181eef426be72d44aa5c83ad83dd440e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bg_forest_5 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46929da1319e0fb47b149f88e49a3f49
+      internalID: -810830798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d5e37b1d8344ab42b064daf4460523a
+      internalID: -748382479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a407e57c3a657d44b208bd326cd8000
+      internalID: -47659701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26560e5c7cd55ef42b554647f5a1df66
+      internalID: 1057685232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf99280973838f46836f76d1e8cebca
+      internalID: -1672862056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2b099a4ad8a3643b3bebf7c12f25bd
+      internalID: -1266073123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec085d89d42c5a8479b2543c43a4b9b2
+      internalID: -341036804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5c042136242de4d81b397aa466135b
+      internalID: -134156359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_8
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a56d08caa2dd794e90a1b13eb0aae96
+      internalID: 266024924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_9
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee86dc80371b2ee47a668ee75d73a02a
+      internalID: -1240451941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a89c412cfe72146b161d6f3a688e15
+      internalID: 873880041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_11
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e1a3701a6a5dd4ca23955256d9f369
+      internalID: 1206956909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52181c7a947d2d24fa148bdda8076754
+      internalID: 2063000689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_13
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1a6def2eef31044a39b5d8f27e6bcf
+      internalID: 32709550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbb469ec8c5f494794f058f189493f7
+      internalID: 1507011260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_15
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fcc1368f78fa0e47aaf909e1e8a8841
+      internalID: 1472338189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_16
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e14719f1ec04234c9af9dc5f5279115
+      internalID: 1437890872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_17
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebccc2a88cb97a4b9088afffb9fe9dc
+      internalID: -728875873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_18
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f8255a33c012a42a8da53c42456898
+      internalID: -625546070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_19
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e914530b16370347a4104583c148b15
+      internalID: 1808536338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_20
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52004d89604af14ab5ce42d0d1fbc4d
+      internalID: -1622884779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_21
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd6258d576ce1b4f9cb4e3da395d889
+      internalID: 1413550948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_22
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf3d26ecb76f3848bec8b3679391379
+      internalID: 1313500144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_23
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e9c152e4678e84ea59543c7691da9b
+      internalID: 397731155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_24
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d395085263561904e88e40da6aba2ce5
+      internalID: -438203601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_25
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33af3ba8cde05b84bb3989667c34494e
+      internalID: -251950557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_26
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 1054
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4a4784c1483a044970cdf732bf97e7
+      internalID: -601459614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d946b5775c7c964ea75e5003e47c096
+      internalID: -632820777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46150ce32e00efb4a82d34c544a6715b
+      internalID: -337199328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_29
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb9b4a1314bd0c41816d7334ad9409f
+      internalID: 1104966943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ebaa8e2ba7ba44580d9bc69e0e368d
+      internalID: 1073215027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_31
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a090f6867d87124590874ecaa73ce58
+      internalID: -898167454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_32
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b66c9d08cc08f194fac1fa7327c35725
+      internalID: 768948410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_33
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9804b807b4cc3c342ab89ff5a7ad9844
+      internalID: 157276622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_34
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a0efbeb2bc53943b51c42758a6c9b7
+      internalID: -1562562334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_35
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5ebdcb23525294da2346fcd21bca8c
+      internalID: 1807711408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_36
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc906b92a4fd094f8256f5acbe84f6a
+      internalID: -728006823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_37
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f8772a423d95a48a61ce4d6dede4b4
+      internalID: 1252540354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_38
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73d2eb8906392644b0891b6fe929ed2
+      internalID: -1050859973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_39
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c73794e1505dc864db2955ff42410a92
+      internalID: -403356724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_40
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20db6b1ce8303654393b0b2db6186b03
+      internalID: -1790774336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_41
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f6b331a0347834f9134e20b03d249c
+      internalID: 406736053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_42
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572f3f3f0f414ad46868470659427b2c
+      internalID: 1982165018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_43
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd886342d3b0814b99bcf9f8e2b5641
+      internalID: 1448236197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_44
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bcfde2b5327734f96e18542e18adb2
+      internalID: 226579843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_45
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36f969083e6e6440a5055ed99dbf68c
+      internalID: -531605382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_46
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb91debd974c6aa4e8bd9460886f2b0b
+      internalID: -978167980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_47
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba535e703cfba744e95873ed7230e685
+      internalID: -366787107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_48
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50a601a89e92eb4497b70645c140178
+      internalID: -1644636730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_49
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71e1f2b921a50f44a6d138647c26345
+      internalID: -819318347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_50
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b5e6678ef67b74badda15fa619e23f
+      internalID: 1476577385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_51
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348c53063a090764eab0b4e9022e6114
+      internalID: 589250354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_52
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf01e9417e5bba4a813d9e79bfb5ada
+      internalID: -1065817952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_53
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 926
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89449f01406a70a45a7419b1d283bfb5
+      internalID: 1966258872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bef4b85ca343f74cb1f0c25e9fa2239
+      internalID: 1478963814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc508701d71271c4e98dd1375e38e183
+      internalID: 1336887393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18610b7656fb09c44ae79e8529e3ec0b
+      internalID: -1711842450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_57
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb7af298dfbae24d8d1157aa142b0be
+      internalID: 228820722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_58
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900c22ab733f5c342853f2e536dc1275
+      internalID: 631344667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_59
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc0adc006dcc974cb51714c82f9f343
+      internalID: -1131620894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_60
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c74256ad044734db07cd45cbbd5348
+      internalID: -1791437919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_61
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04905213b184a784bb6534e810559e99
+      internalID: 1217288277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_62
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbeed032113fe0d4e8c21fe795578243
+      internalID: -1591650847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_63
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9643cf3d5fa1df8448033db45a194e6a
+      internalID: 1827426673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_64
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72058a66638b35844b45f07708438646
+      internalID: 1898523961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_65
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4c94ec4603f234ba387038aff24e7c
+      internalID: 1478119778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_66
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754369cd548776f429df51138122b102
+      internalID: 168397164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_67
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd356a680e467e429399758ac6a03df
+      internalID: -1138858314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_68
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb79c2f86a04cf48a550110880433b0
+      internalID: 1014978412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_69
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a635da4159d714b9347a634542ad8b
+      internalID: -1753594059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_70
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e5ebbf70bd62a4eb0587a307b0066d
+      internalID: 1904097840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_71
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff062cea64e4164ab1f23028769d16c
+      internalID: 385355159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_72
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afd05368acd6e9146b10293c546dbf2b
+      internalID: 850627987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_73
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5281f1cd124a0a748a209176712fc1a8
+      internalID: -739878945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_74
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c4a2ecc562e0f4da552fb2889e3635
+      internalID: 1528847857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_75
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa79b9a0e3339648a3a97f310fa3a9b
+      internalID: -957003672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_76
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 555a9299882587b4e860472b2cde0e3b
+      internalID: 1114513485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_77
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ec9afe0a453b53409f8b8433aeed5f7
+      internalID: -1985951455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_78
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a411fc3c48d0a9e418101a4752db4162
+      internalID: -2112385178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_79
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ed771323b98d84f82b073c0c6fce94
+      internalID: -1152625884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_80
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 798
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd1d46aad90ad54aa1d1a952a8f3c82
+      internalID: -911722039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_81
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be972738c7167e14bb29d367271df720
+      internalID: -805609938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_82
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e58449fe6421f409688100a2341648
+      internalID: 1269587924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_83
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8b6fe7908c0c443ba24ca7d51c7b0f
+      internalID: 620440682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ca8cc76b95d274889047cb53029526
+      internalID: -925039638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_85
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8900f4c37543a0c4b8324168d47f5021
+      internalID: 530029381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_86
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2dfaabd36b23594897491b0e63aa51c
+      internalID: -49448031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_87
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2473a98400faaba489efe056710a20f6
+      internalID: -656272747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_88
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694a3123d9e344d4b820e8bec8288553
+      internalID: 1888105136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_89
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7445533fccbec18409a2b9ef03c55459
+      internalID: -982925041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_90
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f93723366d7bb4d800298b6a141c64
+      internalID: -2144609100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_91
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2dd71753258ab4cafb7e641167ddcb
+      internalID: -1762729862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_92
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ad71718706c3d419ed5cdbc5f1004a
+      internalID: 1213935925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_93
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16dcfe082ac397e4dba1d6ff5cceb3d1
+      internalID: 890330211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_94
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af01f10bae66e8746ba70b69829bac10
+      internalID: 1552818014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_95
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba5bbed557ab524fa431684bd9755af
+      internalID: 2079659039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_96
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6785f73e550ba804c83021ebb3359e75
+      internalID: 631819260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_97
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4474de57250e0ce4fa4cae1503b269c5
+      internalID: 434392573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_98
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5447188f1744ae948a783b34e9fc2410
+      internalID: 938503078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_99
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6ecf1046fde7746a7b2386c848603d
+      internalID: -89269163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_100
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9042cf2645410f45b08c669c734787c
+      internalID: -1965089844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_101
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c463347c6b07f24d97536e9b0da4372
+      internalID: -1952850256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_102
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30946d4aef44ab149b59dfa7ff303213
+      internalID: -1067998605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_103
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b5c85ae8343434dad8687e79598116
+      internalID: -862409271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_104
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05e692d2e74eac4a917abc78357a7ba
+      internalID: 1814543219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_105
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e25c2aa8e03be43812e3402319a9b7
+      internalID: -1550837656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_106
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcf1fa1b47dfbb4aa61cc7b16e50576
+      internalID: 1775947874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_107
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 670
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49204b687543b284aa06b642a6991886
+      internalID: 1187997715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1078ea1dd314e3940a0e636ffd7bad8e
+      internalID: 565208783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_109
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1fb3bb52edd9741bde02f54607226d
+      internalID: -1971027336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_110
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb957f867c9e85d4f9301829ca27a834
+      internalID: -2126221764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_111
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fc17ff67f784d47a45657906186403
+      internalID: -1436437006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_112
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd4dca4696abf4146980e1dab0077324
+      internalID: 467381699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_113
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e5e3f94cea4ec4486c0583d32498f6
+      internalID: -1355385635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_114
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e51d83c5a18ae745b928af076c9ad9b
+      internalID: -186672662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_115
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb8b25c825aece40a3ffd5f1e516f27
+      internalID: -84174586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_116
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3aed1ce1e9b6024b850485ed2748e03
+      internalID: 14211041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_117
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd497e7d136273439a1cd0af9517973
+      internalID: -1286883179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_118
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67403f59742837d4d8e4e07947666391
+      internalID: -787820740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_119
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956ece0e583cabc4a990c01165a7f574
+      internalID: 267959812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_120
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73674567ca4f51049a658363331a1318
+      internalID: -400454567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_121
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c3a26a22165fb4482cb65bced13d7a
+      internalID: 767654039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_122
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a378d3d760eac374ab75c541caa4a081
+      internalID: -929366550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_123
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827a3ce8f263d7b4abb29c952e34ff79
+      internalID: 644689071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_124
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae3d4a093e76014daacd4006bac12af
+      internalID: -2133141169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_125
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2049df7f8fbb31c41b87bbb82d807946
+      internalID: -945935331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_126
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebac22605f7c674ca0b8fd8ab3cfde3
+      internalID: 105788416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_127
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9878a6edb8b1a9c45b70d62e3f982c77
+      internalID: -1384109244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_128
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22956ee16deb8194698a92587ceb2c29
+      internalID: 1911206437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_129
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267e61af9dca2a9469d5791935bb6d4f
+      internalID: -1899222450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_130
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55314653c7c0c1544b3fb4e486802f2a
+      internalID: -5561039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_131
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c6b6223de47f54789b71d555ee7e81
+      internalID: 412320374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_132
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a8e1e2dc17ebd4faaa8365bb5872d1
+      internalID: -2100956553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_133
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6501d2ebccb0924682515376c9ed536
+      internalID: -217466900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_134
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 542
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37643f51e09acaf498812d56aa974bd1
+      internalID: -1182265930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c44138aeb4e2d9449f303bf58f982e7
+      internalID: -2118024998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_136
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a98bc25518ced4da2146ace88277e4
+      internalID: -945330821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_137
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70a7ec4aa0e42845b32fe0a4f72d705
+      internalID: -1396199932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_138
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753de96ce6903174889251d15e75644e
+      internalID: -1355120304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_139
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b18b21b7818d884fac64d9f65485b53
+      internalID: -53491281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_140
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d91206a4d9d174f8ea0db53f177a51
+      internalID: 1966315452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_141
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003e157292f4b2c41bc8cad2709d290a
+      internalID: 1291976659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_142
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d13113771264f45afaddfb91d06680
+      internalID: 227077737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_143
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8dd946b9dc1b78419057e8ecd66fae0
+      internalID: 1940063931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_144
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f70e6261fdfada14ab34050e610a05e0
+      internalID: -613761064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_145
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8110429996e0548be34a59391d91f1
+      internalID: -1269016477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_146
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5980206bcb2d6ff4fa3045057ae49887
+      internalID: -497320951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_147
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eef1bca7cf0ade4f87e983e2321daf8
+      internalID: -946517014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_148
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263255ed1e09f054096bdd5d394e4091
+      internalID: -1458148592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_149
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64f5a9c03c2ace41bbd7ee5d25db467
+      internalID: -333784087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_150
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abcdb11fcfbf5ca41bb256b66b626623
+      internalID: 101239789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_151
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3875bca919bde24e9a9647002cd5ea0
+      internalID: -103593428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_152
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93beacf261cb263479dece95a5d1bc54
+      internalID: 1412761754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_153
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f63f0f2cd16054bbe85ebc03417b79
+      internalID: -801678633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_154
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c35162d5d532b4478075e14956faa61
+      internalID: -1987587228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_155
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed91d5b3be75176498e8eda9f26801ab
+      internalID: 231600111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_156
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a3e7d6231fec69448c817e71b046090
+      internalID: -2025206036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_157
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569b65ffb80dd9341afa367820473692
+      internalID: -1070236635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_158
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f4ef676ca76eb4898d04de0d1d644b
+      internalID: 1858848251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_159
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5093924b5058884c9aa1b02d538a7f2
+      internalID: -1592859533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_160
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ee77c5d28b9254780f81f6cab6e9d6
+      internalID: 647914734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_161
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 414
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54de8e732a422024787efc53259fec8a
+      internalID: 510372626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63630907eecbe644996437ccbab614d
+      internalID: -2033061975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_163
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf3f54c08dfc8e499e6c7ced7b06765
+      internalID: 1534874600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_164
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a21c9bd09635d943a6f4efcc59259c3
+      internalID: 769426615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_165
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a43f9413a8574334eaec82f4a84a4cdc
+      internalID: -768139580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_166
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b0e366936a23647aeb62d9c94abc85
+      internalID: 1694490958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_167
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700c9a57496f2d845ad45f07bf0f5c8b
+      internalID: 1496512789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_168
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a647f1aeddcff469017effd98fa693
+      internalID: 434198831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_169
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7dd776c456ef6e41ad93d4f1bac8b75
+      internalID: -1861968605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_170
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a50597590fa5047ba3ce72d9631084
+      internalID: -1620507417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_171
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a0d0e5691108d45bb5d507e789ed4e
+      internalID: 1386698413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_172
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab44a73926c71d441a31dbb891d7df54
+      internalID: -1266681052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_173
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366a4b1e78b98354a9652af410bdb8fc
+      internalID: 620346323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_174
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f6f809e0601e1429a0c9c940d887a1
+      internalID: 150513540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_175
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1dbf6641e3594644bd53063769bbfe5
+      internalID: 1516685600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_176
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2735d4eb4e50a54ab90a3d51cf3e2db
+      internalID: 106549345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_177
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13be82b685b356743a2fbc3008fc5953
+      internalID: 2105967578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_178
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dfa55d51b314249b32170b07b22ab8
+      internalID: 463634310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_179
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a0e65d6032f1a44a23c7ee2e5e3a76
+      internalID: 892027666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_180
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa501ecf3fa3534793191ed64ce42f7
+      internalID: 1303522963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_181
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae4c1b52eeee8bc4eaddd99b0bd99481
+      internalID: 1999486266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_182
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfb31639bc28084a91c6cbffbab5527
+      internalID: 1879820888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_183
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132405e6d868f2a4c8c1db6171b14b2d
+      internalID: 125976091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_184
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea751b42e7ecdc14081f3609b58f07c3
+      internalID: 1589762867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_185
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d0cb153abd8fb41a541be44a39be6e
+      internalID: -373808048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_186
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902cef7aa9e853147bc3691b1c47f098
+      internalID: 537037381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_187
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d9ffc370d7f634fa7942e092978391
+      internalID: 128999846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_188
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 286
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1407bda4c10d964e9643fab9a8e49ba
+      internalID: 1922886488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_189
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b0cf8323a19e34c9aca096a97c5298
+      internalID: 509558549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_190
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0310ab2214a5b8f40b17dd6f98402786
+      internalID: 1279507680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_191
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9106b13e950d4a49a7fc79bcda900fc
+      internalID: -1936430163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_192
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347e6cf513b89f447a5370c2da9ca16f
+      internalID: -1921268472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_193
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f1563c46ccc5141865c8d5c2cec258
+      internalID: 1636111647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_194
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2239f2c154315924da7c33b01198ceae
+      internalID: -896522921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_195
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e1037c50eb3a1448bfc733705aac96
+      internalID: -1143193307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_196
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce3dc4ce0437e04cb9c4608714cfb59
+      internalID: -867066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_197
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0c21d40c07b3d4b97b4647d8a02c42
+      internalID: -421325291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_198
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b1127646b22c5848b6d09de73d143c4
+      internalID: -98763107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_199
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affa7603db9dfb240a557d8e4ace24ee
+      internalID: 1327701923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_200
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 916c21f2296f5f448a9770fb4bdf0e2c
+      internalID: 1016189267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_201
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd130fe3cf35dc743ba32b91fb9c6882
+      internalID: -698463461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_202
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2782b3286e131c148bb27bb720ca5c13
+      internalID: -1060398410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_203
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc1659a704b79c49a341d747af739e2
+      internalID: -2100676655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_204
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477ead9251ed67942b539811d9725e8b
+      internalID: -959479586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_205
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388cca9039360d446b83874da374731e
+      internalID: -650546608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_206
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae45dd6130a4ff428e15b2078db21c5
+      internalID: -671782104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_207
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a08d3f123e960442abe4d309b5c7f4f
+      internalID: -655845308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_208
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00e676643f89cd48ba103fd011770b9
+      internalID: 1758974173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_209
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33a3375f5212c44a9e89bc1b67a1b61
+      internalID: 410328133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_210
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acaf3bc424485624c9989b078a96de5e
+      internalID: -488965564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_211
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d013a8103e6cf2d438531a1f991ca418
+      internalID: 343853524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_212
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca8ddc1d7b830147847d5940fd4eb9d
+      internalID: -28816223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_213
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cef3077c0a86b4c8e37f054c3aed50
+      internalID: -1422649718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_214
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32df96497f03f844879c7e550e340f8
+      internalID: -728655033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_215
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 158
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ce0d075eadbc542b10c10b98be5ef0
+      internalID: 2048986161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_216
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35678cee59a59cb4bbe0250f9bca61fd
+      internalID: -265559244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_217
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db2b0da803be20d46a1f70101e61a868
+      internalID: -924631050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_218
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43a7e7aa1ed7b74d8410c57243ba637
+      internalID: -49539457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_219
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2336dfd115360d0488d069b12426f9e4
+      internalID: -411698967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_220
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab922b3ceeade5042a0ff21e1d6fda91
+      internalID: -255460825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_221
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121dc9bfeb790ba458edb048ac6ccd98
+      internalID: -817752576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_222
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6867f93bf76c3f54aa2800b682fe854c
+      internalID: -1974338749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_223
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e67c104154f4f47afb576f5732cf1c
+      internalID: 936048566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_224
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5c793da6f97d64ab967e1f67575b51
+      internalID: -1373060197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_225
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2b9443ee3980943b433f1e5582a484
+      internalID: 647546294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_226
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3672a4876548484fa3042320440049d
+      internalID: 115856614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_227
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f3386e3b653c84588dd8531cbfda7a
+      internalID: -998980290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_228
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebf76d21c116744a9c6e40d0a3c38b7
+      internalID: 645582877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_229
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d760cdaccec249247b643936afed749c
+      internalID: -1926857676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_230
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d69f8a356c4c4864d89f6635e13f4e52
+      internalID: -65127128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_231
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331eaa8c04169724286d5d3e5774d47f
+      internalID: -1971375968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_232
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2a7549de798c54db337e67e17056f7
+      internalID: -1818209969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_233
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80cceb507ed763849b04378a5254f383
+      internalID: -1864804841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_234
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a377be741354f9847b4ae1a87e7f6bf9
+      internalID: 622117495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_235
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20f2e3ba4cc8fe41afe0b10bed56907
+      internalID: 1939260879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_236
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76f83e8cd82d2d84298a1055f1dd7723
+      internalID: 1255304739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_237
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5071f3cfd2bc2414eada94d740ce47ce
+      internalID: -857448914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_238
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbb39b3c595edd4dac041a4d82a5ddb
+      internalID: 1883160763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_239
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c37c9361406904f8babbc2bebb6ed3
+      internalID: 55618806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_240
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb9c569e92a0274eb7e12ba80300caf
+      internalID: -877192126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_241
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bd9ef1f6e971f143af507fb431d183f
+      internalID: -1164741387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bg_forest_5 1_242
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 30
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce20c8a44da73e245ba682692c1686f6
+      internalID: -1622401061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      bg_forest_5 1_1: -748382479
+      bg_forest_5 1_28: -337199328
+      bg_forest_5 1_93: 890330211
+      bg_forest_5 1_50: 1476577385
+      bg_forest_5 1_23: 397731155
+      bg_forest_5 1_31: -898167454
+      bg_forest_5 1_37: 1252540354
+      bg_forest_5 1_164: 769426615
+      bg_forest_5 1_78: -2112385178
+      bg_forest_5 1_174: 150513540
+      bg_forest_5 1_99: -89269163
+      bg_forest_5 1_202: -1060398410
+      bg_forest_5 1_34: -1562562334
+      bg_forest_5 1_106: 1775947874
+      bg_forest_5 1_218: -49539457
+      bg_forest_5 1_94: 1552818014
+      bg_forest_5 1_177: 2105967578
+      bg_forest_5 1_8: 266024924
+      bg_forest_5 1_225: 647546294
+      bg_forest_5 1_240: -877192126
+      bg_forest_5 1_64: 1898523961
+      bg_forest_5 1_134: -1182265930
+      bg_forest_5 1_67: -1138858314
+      bg_forest_5 1_54: 1478963814
+      bg_forest_5 1_52: -1065817952
+      bg_forest_5 1_39: -403356724
+      bg_forest_5 1_188: 1922886488
+      bg_forest_5 1_159: -1592859533
+      bg_forest_5 1_224: -1373060197
+      bg_forest_5 1_20: -1622884779
+      bg_forest_5 1_45: -531605382
+      bg_forest_5 1_15: 1472338189
+      bg_forest_5 1_69: -1753594059
+      bg_forest_5 1_189: 509558549
+      bg_forest_5 1_13: 32709550
+      bg_forest_5 1_3: 1057685232
+      bg_forest_5 1_214: -728655033
+      bg_forest_5 1_110: -2126221764
+      bg_forest_5 1_209: 410328133
+      bg_forest_5 1_29: 1104966943
+      bg_forest_5 1_97: 434392573
+      bg_forest_5 1_220: -255460825
+      bg_forest_5 1_196: -867066
+      bg_forest_5 1_227: -998980290
+      bg_forest_5 1_18: -625546070
+      bg_forest_5 1_71: 385355159
+      bg_forest_5 1_81: -805609938
+      bg_forest_5 1_215: 2048986161
+      bg_forest_5 1_21: 1413550948
+      bg_forest_5 1_195: -1143193307
+      bg_forest_5 1_105: -1550837656
+      bg_forest_5 1_33: 157276622
+      bg_forest_5 1_89: -982925041
+      bg_forest_5 1_152: 1412761754
+      bg_forest_5 1_118: -787820740
+      bg_forest_5 1_46: -978167980
+      bg_forest_5 1_60: -1791437919
+      bg_forest_5 1_239: 55618806
+      bg_forest_5 1_108: 565208783
+      bg_forest_5 1_68: 1014978412
+      bg_forest_5 1_75: -957003672
+      bg_forest_5 1_143: 1940063931
+      bg_forest_5 1_65: 1478119778
+      bg_forest_5 1_83: 620440682
+      bg_forest_5 1_116: 14211041
+      bg_forest_5 1_183: 125976091
+      bg_forest_5 1_35: 1807711408
+      bg_forest_5 1_58: 631344667
+      bg_forest_5 1_14: 1507011260
+      bg_forest_5 1_165: -768139580
+      bg_forest_5 1_213: -1422649718
+      bg_forest_5 1_171: 1386698413
+      bg_forest_5 1_212: -28816223
+      bg_forest_5 1_47: -366787107
+      bg_forest_5 1_237: -857448914
+      bg_forest_5 1_193: 1636111647
+      bg_forest_5 1_25: -251950557
+      bg_forest_5 1_157: -1070236635
+      bg_forest_5 1_76: 1114513485
+      bg_forest_5 1_221: -817752576
+      bg_forest_5 1_147: -946517014
+      bg_forest_5 1_113: -1355385635
+      bg_forest_5 1_184: 1589762867
+      bg_forest_5 1_129: -1899222450
+      bg_forest_5 1_187: 128999846
+      bg_forest_5 1_36: -728006823
+      bg_forest_5 1_135: -2118024998
+      bg_forest_5 1_128: 1911206437
+      bg_forest_5 1_230: -65127128
+      bg_forest_5 1_201: -698463461
+      bg_forest_5 1_156: -2025206036
+      bg_forest_5 1_163: 1534874600
+      bg_forest_5 1_61: 1217288277
+      bg_forest_5 1_4: -1672862056
+      bg_forest_5 1_86: -49448031
+      bg_forest_5 1_207: -655845308
+      bg_forest_5 1_120: -400454567
+      bg_forest_5 1_19: 1808536338
+      bg_forest_5 1_124: -2133141169
+      bg_forest_5 1_199: 1327701923
+      bg_forest_5 1_122: -929366550
+      bg_forest_5 1_133: -217466900
+      bg_forest_5 1_90: -2144609100
+      bg_forest_5 1_204: -959479586
+      bg_forest_5 1_22: 1313500144
+      bg_forest_5 1_145: -1269016477
+      bg_forest_5 1_42: 1982165018
+      bg_forest_5 1_117: -1286883179
+      bg_forest_5 1_80: -911722039
+      bg_forest_5 1_130: -5561039
+      bg_forest_5 1_158: 1858848251
+      bg_forest_5 1_151: -103593428
+      bg_forest_5 1_203: -2100676655
+      bg_forest_5 1_226: 115856614
+      bg_forest_5 1_154: -1987587228
+      bg_forest_5 1_79: -1152625884
+      bg_forest_5 1_160: 647914734
+      bg_forest_5 1_96: 631819260
+      bg_forest_5 1_137: -1396199932
+      bg_forest_5 1_30: 1073215027
+      bg_forest_5 1_148: -1458148592
+      bg_forest_5 1_38: -1050859973
+      bg_forest_5 1_197: -421325291
+      bg_forest_5 1_162: -2033061975
+      bg_forest_5 1_131: 412320374
+      bg_forest_5 1_41: 406736053
+      bg_forest_5 1_149: -333784087
+      bg_forest_5 1_51: 589250354
+      bg_forest_5 1_123: 644689071
+      bg_forest_5 1_141: 1291976659
+      bg_forest_5 1_172: -1266681052
+      bg_forest_5 1_150: 101239789
+      bg_forest_5 1_182: 1879820888
+      bg_forest_5 1_55: 1336887393
+      bg_forest_5 1_48: -1644636730
+      bg_forest_5 1_200: 1016189267
+      bg_forest_5 1_70: 1904097840
+      bg_forest_5 1_175: 1516685600
+      bg_forest_5 1_121: 767654039
+      bg_forest_5 1_210: -488965564
+      bg_forest_5 1_5: -1266073123
+      bg_forest_5 1_211: 343853524
+      bg_forest_5 1_228: 645582877
+      bg_forest_5 1_12: 2063000689
+      bg_forest_5 1_7: -134156359
+      bg_forest_5 1_186: 537037381
+      bg_forest_5 1_59: -1131620894
+      bg_forest_5 1_127: -1384109244
+      bg_forest_5 1_43: 1448236197
+      bg_forest_5 1_155: 231600111
+      bg_forest_5 1_219: -411698967
+      bg_forest_5 1_112: 467381699
+      bg_forest_5 1_140: 1966315452
+      bg_forest_5 1_104: 1814543219
+      bg_forest_5 1_62: -1591650847
+      bg_forest_5 1_100: -1965089844
+      bg_forest_5 1_180: 1303522963
+      bg_forest_5 1_111: -1436437006
+      bg_forest_5 1_82: 1269587924
+      bg_forest_5 1_26: -601459614
+      bg_forest_5 1_168: 434198831
+      bg_forest_5 1_109: -1971027336
+      bg_forest_5 1_2: -47659701
+      bg_forest_5 1_57: 228820722
+      bg_forest_5 1_176: 106549345
+      bg_forest_5 1_233: -1864804841
+      bg_forest_5 1_194: -896522921
+      bg_forest_5 1_206: -671782104
+      bg_forest_5 1_144: -613761064
+      bg_forest_5 1_179: 892027666
+      bg_forest_5 1_198: -98763107
+      bg_forest_5 1_66: 168397164
+      bg_forest_5 1_74: 1528847857
+      bg_forest_5 1_77: -1985951455
+      bg_forest_5 1_49: -819318347
+      bg_forest_5 1_88: 1888105136
+      bg_forest_5 1_103: -862409271
+      bg_forest_5 1_146: -497320951
+      bg_forest_5 1_166: 1694490958
+      bg_forest_5 1_27: -632820777
+      bg_forest_5 1_107: 1187997715
+      bg_forest_5 1_181: 1999486266
+      bg_forest_5 1_9: -1240451941
+      bg_forest_5 1_223: 936048566
+      bg_forest_5 1_142: 227077737
+      bg_forest_5 1_98: 938503078
+      bg_forest_5 1_6: -341036804
+      bg_forest_5 1_119: 267959812
+      bg_forest_5 1_192: -1921268472
+      bg_forest_5 1_125: -945935331
+      bg_forest_5 1_40: -1790774336
+      bg_forest_5 1_232: -1818209969
+      bg_forest_5 1_92: 1213935925
+      bg_forest_5 1_136: -945330821
+      bg_forest_5 1_205: -650546608
+      bg_forest_5 1_101: -1952850256
+      bg_forest_5 1_16: 1437890872
+      bg_forest_5 1_222: -1974338749
+      bg_forest_5 1_229: -1926857676
+      bg_forest_5 1_85: 530029381
+      bg_forest_5 1_32: 768948410
+      bg_forest_5 1_170: -1620507417
+      bg_forest_5 1_241: -1164741387
+      bg_forest_5 1_115: -84174586
+      bg_forest_5 1_87: -656272747
+      bg_forest_5 1_0: -810830798
+      bg_forest_5 1_63: 1827426673
+      bg_forest_5 1_139: -53491281
+      bg_forest_5 1_53: 1966258872
+      bg_forest_5 1_73: -739878945
+      bg_forest_5 1_95: 2079659039
+      bg_forest_5 1_231: -1971375968
+      bg_forest_5 1_216: -265559244
+      bg_forest_5 1_153: -801678633
+      bg_forest_5 1_190: 1279507680
+      bg_forest_5 1_235: 1939260879
+      bg_forest_5 1_11: 1206956909
+      bg_forest_5 1_138: -1355120304
+      bg_forest_5 1_44: 226579843
+      bg_forest_5 1_238: 1883160763
+      bg_forest_5 1_10: 873880041
+      bg_forest_5 1_234: 622117495
+      bg_forest_5 1_84: -925039638
+      bg_forest_5 1_185: -373808048
+      bg_forest_5 1_178: 463634310
+      bg_forest_5 1_167: 1496512789
+      bg_forest_5 1_24: -438203601
+      bg_forest_5 1_173: 620346323
+      bg_forest_5 1_169: -1861968605
+      bg_forest_5 1_191: -1936430163
+      bg_forest_5 1_17: -728875873
+      bg_forest_5 1_132: -2100956553
+      bg_forest_5 1_242: -1622401061
+      bg_forest_5 1_91: -1762729862
+      bg_forest_5 1_236: 1255304739
+      bg_forest_5 1_126: 105788416
+      bg_forest_5 1_72: 850627987
+      bg_forest_5 1_217: -924631050
+      bg_forest_5 1_114: -186672662
+      bg_forest_5 1_56: -1711842450
+      bg_forest_5 1_161: 510372626
+      bg_forest_5 1_102: -1067998605
+      bg_forest_5 1_208: 1758974173
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
