@@ -4,7 +4,8 @@ using UnityEngine;
 
 public enum PlayerState
 {
-    Running,
     Idle,
-    Jumping
+    Running,
+    Jumping,
+    Falling
 }
