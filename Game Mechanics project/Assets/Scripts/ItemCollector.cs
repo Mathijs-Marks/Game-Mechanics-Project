@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class ItemCollector : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI coinsText;
+    [SerializeField] private AudioSource collectSoundEffect;
     
     private int amountOfCoins = 0;
 
@@ -15,6 +16,7 @@ public class ItemCollector : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Coin"))
         {
+            collectSoundEffect.Play();
             Destroy(collision.gameObject);
             amountOfCoins++;
             coinsText.text = "Coins: " + amountOfCoins;
