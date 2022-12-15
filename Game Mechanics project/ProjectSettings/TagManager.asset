@@ -59,6 +59,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Scenery
+    uniqueID: 1986492871
+    locked: 0
+  - name: Traps
+    uniqueID: 3708211265
+    locked: 0
   - name: Terrain
     uniqueID: 2432056221
     locked: 0
