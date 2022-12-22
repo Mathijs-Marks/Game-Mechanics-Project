@@ -41,6 +41,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background 6
+    uniqueID: 2639289995
+    locked: 0
   - name: Background 5
     uniqueID: 3266784649
     locked: 0
@@ -56,11 +59,14 @@ TagManager:
   - name: Background 1
     uniqueID: 3976040725
     locked: 0
-  - name: Default
-    uniqueID: 0
+  - name: Over Background
+    uniqueID: 2819008151
     locked: 0
   - name: Scenery
     uniqueID: 1986492871
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: Traps
     uniqueID: 3708211265
