@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum PlayerState
+public enum PlayerWeaponState
 {
-    Idle,
-    Running,
-    Jumping,
-    Falling
+    None,
+    Sword,
+    Bow,
+    Spear
 }

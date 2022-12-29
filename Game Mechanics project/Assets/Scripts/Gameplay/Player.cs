@@ -1,14 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Animations;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
     private BoxCollider2D collider;
     private Rigidbody2D rb;
+
     private Animator animator;
+    [SerializeField] private AnimatorController[] controller;
+
+
+    private PlayerAnimationState animationState;
+
     private SpriteRenderer sprite;
-    private PlayerState state;
 
     [SerializeField] private LayerMask jumpableGround;
 
@@ -18,8 +24,7 @@ public class Player : MonoBehaviour
 
     [SerializeField] private AudioSource jumpSoundEffect;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         collider = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
@@ -46,29 +51,29 @@ public class Player : MonoBehaviour
     {
         if (movementX > 0f)
         {
-            state = PlayerState.Running;
+            animationState = PlayerAnimationState.Running;
             sprite.flipX = false;
         }
         else if (movementX < 0f)
         {
-            state = PlayerState.Running;
+            animationState = PlayerAnimationState.Running;
             sprite.flipX = true;
         }
         else
         {
-            state = PlayerState.Idle;
+            animationState = PlayerAnimationState.Idle;
         }
 
         if (rb.velocity.y > .1f)
         {
-            state = PlayerState.Jumping;
+            animationState = PlayerAnimationState.Jumping;
         }
         else if (rb.velocity.y < -.1f)
         {
-            state = PlayerState.Falling;
+            animationState = PlayerAnimationState.Falling;
         }
 
-        animator.SetInteger("state", (int)state);
+        animator.SetInteger("state", (int)animationState);
     }
 
     private bool IsGrounded()
@@ -86,5 +91,25 @@ public class Player : MonoBehaviour
          */
         return Physics2D.BoxCast(collider.bounds.center, collider.bounds.size, 0f, Vector2.down, .1f, jumpableGround);
 
+    }
+
+    public void UpdateSpriteState(PlayerWeaponState weaponState)
+    {
+        if (weaponState == PlayerWeaponState.Sword)
+        {
+            animator.runtimeAnimatorController = controller[1];
+        }
+        else if (weaponState == PlayerWeaponState.Bow)
+        {
+            animator.runtimeAnimatorController = controller[2];
+        }
+        else if (weaponState == PlayerWeaponState.Spear)
+        {
+            animator.runtimeAnimatorController = controller[3];
+        }
+        else
+        {
+            animator.runtimeAnimatorController = controller[0];
+        }
     }
 }
