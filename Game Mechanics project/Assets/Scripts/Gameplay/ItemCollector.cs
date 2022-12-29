@@ -16,7 +16,7 @@ public class ItemCollector : MonoBehaviour
 
     private void Awake()
     {
-        player= GetComponent<Player>();
+        player = GetComponent<Player>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
