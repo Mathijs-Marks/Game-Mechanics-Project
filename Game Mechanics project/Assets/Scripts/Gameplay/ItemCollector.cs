@@ -48,6 +48,11 @@ public class ItemCollector : MonoBehaviour
         collectSoundEffect.Play();
         Destroy(collision.gameObject);
         amountOfCoins++;
+        UpdateCoins(amountOfCoins);
+    }
+
+    public void UpdateCoins(int amountOfCoins)
+    {
         coinsText.text = "Coins: " + amountOfCoins;
     }
 

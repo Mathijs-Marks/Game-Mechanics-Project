@@ -44,7 +44,8 @@ public class NPCInteraction : MonoBehaviour
     {
         if (GlobalReferenceManager.ItemCollectorScript.AmountOfCoins >= swordCost)
         {
-            GlobalReferenceManager.ItemCollectorScript.AmountOfCoins -= swordCost;
+            int updatedCoins = GlobalReferenceManager.ItemCollectorScript.AmountOfCoins -= swordCost;
+            GlobalReferenceManager.ItemCollectorScript.UpdateCoins(updatedCoins);
             GlobalReferenceManager.PlayerScript.UpdateSpriteState(PlayerWeaponState.Sword);
         }
         else
@@ -57,7 +58,8 @@ public class NPCInteraction : MonoBehaviour
     {
         if (GlobalReferenceManager.ItemCollectorScript.AmountOfCoins >= bowCost)
         {
-            GlobalReferenceManager.ItemCollectorScript.AmountOfCoins -= bowCost;
+            int updatedCoins = GlobalReferenceManager.ItemCollectorScript.AmountOfCoins -= bowCost;
+            GlobalReferenceManager.ItemCollectorScript.UpdateCoins(updatedCoins);
             GlobalReferenceManager.PlayerScript.UpdateSpriteState(PlayerWeaponState.Bow);
         }
         else
@@ -70,7 +72,8 @@ public class NPCInteraction : MonoBehaviour
     {
         if (GlobalReferenceManager.ItemCollectorScript.AmountOfCoins >= spearCost)
         {
-            GlobalReferenceManager.ItemCollectorScript.AmountOfCoins -= spearCost;
+            int updatedCoins = GlobalReferenceManager.ItemCollectorScript.AmountOfCoins -= spearCost;
+            GlobalReferenceManager.ItemCollectorScript.UpdateCoins(updatedCoins);
             GlobalReferenceManager.PlayerScript.UpdateSpriteState(PlayerWeaponState.Spear);
         }
         else
