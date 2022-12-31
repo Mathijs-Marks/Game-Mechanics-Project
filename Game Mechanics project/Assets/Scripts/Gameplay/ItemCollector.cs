@@ -16,7 +16,7 @@ public class ItemCollector : MonoBehaviour
     [SerializeField] private TextMeshProUGUI coinsText;
     [SerializeField] private AudioSource collectSoundEffect;
     
-    [SerializeField] private int amountOfCoins = 0;
+    private int amountOfCoins = 0;
 
     private void Awake()
     {
