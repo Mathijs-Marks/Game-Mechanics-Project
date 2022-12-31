@@ -153,6 +153,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94fac4aa31d942b4382327c282e28bd2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller:
+  - {fileID: 9100000, guid: 0048a881c25dbca48b1e7c76219a7d91, type: 2}
+  - {fileID: 9100000, guid: 299c408dc6b39414bb5860df65451cf0, type: 2}
+  - {fileID: 9100000, guid: 98bb85796dceda043a6009327da3c1d5, type: 2}
+  - {fileID: 9100000, guid: f1e879d4056be27479d1c4d624c4ba9e, type: 2}
   jumpableGround:
     serializedVersion: 2
     m_Bits: 64
