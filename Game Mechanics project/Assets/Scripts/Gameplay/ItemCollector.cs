@@ -7,16 +7,20 @@ using UnityEngine.UI;
 
 public class ItemCollector : MonoBehaviour
 {
+    public int AmountOfCoins
+    {
+        get { return amountOfCoins; }
+        set { amountOfCoins = value; }
+    }
+
     [SerializeField] private TextMeshProUGUI coinsText;
     [SerializeField] private AudioSource collectSoundEffect;
-
-    private Player player;
     
-    private int amountOfCoins = 0;
+    [SerializeField] private int amountOfCoins = 0;
 
     private void Awake()
     {
-        player = GetComponent<Player>();
+        GlobalReferenceManager.ItemCollectorScript = this;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -51,7 +55,7 @@ public class ItemCollector : MonoBehaviour
     {
         collectSoundEffect.Play();
         Destroy(collision.gameObject);
-        player.UpdateSpriteState(weaponState);
+        GlobalReferenceManager.PlayerScript.UpdateSpriteState(weaponState);
 
     }
 }

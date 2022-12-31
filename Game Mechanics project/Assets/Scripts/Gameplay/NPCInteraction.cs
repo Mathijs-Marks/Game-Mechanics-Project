@@ -6,7 +6,15 @@ public class NPCInteraction : MonoBehaviour
 {
     private Animator animator;
     [SerializeField] private Canvas canvas;
-    [SerializeField] private Player player; // GetComponent doesn't want to work for the script, so we serialize it.
+
+    private int swordCost = 3;
+    private int bowCost = 6;
+    private int spearCost = 9;
+
+    private void Awake()
+    {
+        GlobalReferenceManager.NPCInteractionScript = this;
+    }
 
     void Start()
     {
@@ -34,16 +42,40 @@ public class NPCInteraction : MonoBehaviour
 
     public void EquipSword()
     {
-        player.UpdateSpriteState(PlayerWeaponState.Sword);
+        if (GlobalReferenceManager.ItemCollectorScript.AmountOfCoins >= swordCost)
+        {
+            GlobalReferenceManager.ItemCollectorScript.AmountOfCoins -= swordCost;
+            GlobalReferenceManager.PlayerScript.UpdateSpriteState(PlayerWeaponState.Sword);
+        }
+        else
+        {
+            Debug.Log("You don't have enough coins!");
+        }
     }
 
     public void EquipBow()
     {
-        player.UpdateSpriteState(PlayerWeaponState.Bow);
+        if (GlobalReferenceManager.ItemCollectorScript.AmountOfCoins >= bowCost)
+        {
+            GlobalReferenceManager.ItemCollectorScript.AmountOfCoins -= bowCost;
+            GlobalReferenceManager.PlayerScript.UpdateSpriteState(PlayerWeaponState.Bow);
+        }
+        else
+        {
+            Debug.Log("You don't have enough coins!");
+        }
     }
 
     public void EquipSpear()
     {
-        player.UpdateSpriteState(PlayerWeaponState.Spear);
+        if (GlobalReferenceManager.ItemCollectorScript.AmountOfCoins >= spearCost)
+        {
+            GlobalReferenceManager.ItemCollectorScript.AmountOfCoins -= spearCost;
+            GlobalReferenceManager.PlayerScript.UpdateSpriteState(PlayerWeaponState.Spear);
+        }
+        else
+        {
+            Debug.Log("You don't have enough coins!");
+        }
     }
 }

@@ -24,8 +24,9 @@ public class Player : MonoBehaviour
 
     [SerializeField] private AudioSource jumpSoundEffect;
 
-    void Awake()
+    private void Awake()
     {
+        GlobalReferenceManager.PlayerScript = this;
         collider = GetComponent<BoxCollider2D>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
