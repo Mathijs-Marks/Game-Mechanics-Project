@@ -9,7 +9,7 @@ using UnityEngine;
 
 public static class GlobalReferenceManager
 {
-    public static Player PlayerScript;
+    public static PlayerController PlayerScript;
     public static ItemCollector ItemCollectorScript;
     public static NPCInteraction NPCInteractionScript;
 }
