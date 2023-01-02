@@ -28,7 +28,7 @@ public class PlayerDeath : MonoBehaviour
     private void Die()
     {
         deathSoundEffect.Play();
-        animator.SetTrigger(AnimationStrings.death); // Set trigger for animator, which then executes RestartLevel()
+        animator.SetTrigger(AnimationStrings.deathTrigger); // Set trigger for animator, which then executes RestartLevel()
         rb.bodyType = RigidbodyType2D.Static;
     }
 

@@ -9815,6 +9815,10 @@ PrefabInstance:
       propertyPath: coinsText
       value: 
       objectReference: {fileID: 309476521}
+    - target: {fileID: 7476664654788313047, guid: 9040ebd0806e97346b181daa3508e7a2, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 33dafa850303f904ca77652e30fdb761, type: 2}
     - target: {fileID: 7476664654788313053, guid: 9040ebd0806e97346b181daa3508e7a2, type: 3}
       propertyPath: m_Name
       value: Player

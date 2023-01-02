@@ -4,9 +4,11 @@ using UnityEngine;
 
 internal class AnimationStrings
 {
-    internal static string death = "death";
+    internal static string deathTrigger = "death";
     internal static string state = "state";
     internal static string isGrounded = "isGrounded";
     internal static string isOnWall = "isOnWall";
     internal static string isOnCeiling = "isOnCeiling";
+    internal static string attackTrigger = "attack";
+    internal static string canMove = "canMove";
 }

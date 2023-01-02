@@ -13,13 +13,21 @@ public class PlayerController : MonoBehaviour
     {
         get
         {
-            if (IsMoving && !GlobalReferenceManager.CheckSurfacesScript.IsOnWall)
+            if (CanMove)
             {
-                return moveSpeed;
+                if (IsMoving && !GlobalReferenceManager.CheckSurfacesScript.IsOnWall)
+                {
+                    return moveSpeed;
+                }
+                else
+                {
+                    // Idle speed is 0.
+                    return 0;
+                }
             }
             else
             {
-                // Idle speed is 0.
+                // Movement locked.
                 return 0;
             }
         }
@@ -37,6 +45,11 @@ public class PlayerController : MonoBehaviour
             }
                 isFacingRight = value; 
         } 
+    }
+
+    public bool CanMove
+    {
+        get { return animator.GetBool(AnimationStrings.canMove); }
     }
     
     private bool isFacingRight = true;
@@ -85,10 +98,18 @@ public class PlayerController : MonoBehaviour
     public void OnJump(InputAction.CallbackContext context)
     {
         // TODO: Check if alive as well.
-        if (context.started && GlobalReferenceManager.CheckSurfacesScript.IsGrounded)
+        if (context.started && GlobalReferenceManager.CheckSurfacesScript.IsGrounded && CanMove)
         {
             jumpSoundEffect.Play();
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+        }
+    }
+
+    public void OnAttack(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            animator.SetTrigger(AnimationStrings.attackTrigger);
         }
     }
 
