@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Animations;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-public class Player : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
+    public bool IsMoving { get; private set; }
+
     private BoxCollider2D collider;
     private Rigidbody2D rb;
 
@@ -18,9 +21,10 @@ public class Player : MonoBehaviour
 
     [SerializeField] private LayerMask jumpableGround;
 
-    [SerializeField] private float moveSpeed = 3f;
-    [SerializeField] private float jumpForce = 10f;
+    [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float jumpForce = 14f;
     private float movementX;
+    private Vector2 moveInput;
 
     [SerializeField] private AudioSource jumpSoundEffect;
 
@@ -36,8 +40,8 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        movementX = Input.GetAxisRaw("Horizontal");
-        rb.velocity = new Vector2(movementX * moveSpeed, rb.velocity.y);
+        //movementX = Input.GetAxisRaw("Horizontal");
+        //rb.velocity = new Vector2(movementX * moveSpeed, rb.velocity.y);
 
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
@@ -48,14 +52,26 @@ public class Player : MonoBehaviour
         UpdateAnimationState();
     }
 
+    private void FixedUpdate()
+    {
+        rb.velocity = new Vector2(moveInput.x * moveSpeed, rb.velocity.y);
+    }
+
+    public void OnMove(InputAction.CallbackContext context)
+    {
+        moveInput = context.ReadValue<Vector2>();
+
+        IsMoving = moveInput != Vector2.zero;
+    }
+
     private void UpdateAnimationState()
     {
-        if (movementX > 0f)
+        if (moveInput.x > 0f)
         {
             animationState = PlayerAnimationState.Running;
             sprite.flipX = false;
         }
-        else if (movementX < 0f)
+        else if (moveInput.x < 0f)
         {
             animationState = PlayerAnimationState.Running;
             sprite.flipX = true;
