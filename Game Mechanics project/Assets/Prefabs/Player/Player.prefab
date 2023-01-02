@@ -11,10 +11,11 @@ GameObject:
   - component: {fileID: 7476664654788313041}
   - component: {fileID: 7476664654788313040}
   - component: {fileID: 7476664654788313043}
-  - component: {fileID: 7476664654788313042}
+  - component: {fileID: 1028196246988756537}
   - component: {fileID: 7476664654788313047}
   - component: {fileID: 3855891282337715393}
   - component: {fileID: 3619296526114608892}
+  - component: {fileID: 8652030482236273248}
   - component: {fileID: 7476664654788313044}
   - component: {fileID: 7476664654788313045}
   - component: {fileID: 7476664654788313066}
@@ -116,8 +117,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!61 &7476664654788313042
-BoxCollider2D:
+--- !u!70 &1028196246988756537
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -129,19 +130,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.037887275, y: 0.018943667}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3, y: 2.56}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.6690892, y: 1.2591956}
-  m_EdgeRadius: 0
+  m_Offset: {x: -0.028457642, y: 0.08023238}
+  m_Size: {x: 0.7445221, y: 1.3817735}
+  m_Direction: 0
 --- !u!95 &7476664654788313047
 Animator:
   serializedVersion: 4
@@ -251,6 +242,22 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: e09a5ee1-e640-4fab-985e-3fb5b88fc766
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3619296526114608892}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnJump
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 281cec1c-6a6e-415f-a23a-0bcd85228e52
+    m_ActionName: Player/Jump[/Keyboard/space]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -276,9 +283,21 @@ MonoBehaviour:
   jumpableGround:
     serializedVersion: 2
     m_Bits: 64
+  jumpSoundEffect: {fileID: 7476664654788313066}
   moveSpeed: 5
   jumpForce: 14
-  jumpSoundEffect: {fileID: 7476664654788313066}
+--- !u!114 &8652030482236273248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7476664654788313053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbdab6e015aa8614d853ce6da6d79d24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &7476664654788313044
 MonoBehaviour:
   m_ObjectHideFlags: 0
