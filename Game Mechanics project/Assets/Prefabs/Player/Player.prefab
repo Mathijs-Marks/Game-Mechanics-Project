@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 3619296526114608892}
   - component: {fileID: 8652030482236273248}
   - component: {fileID: 7476664654788313044}
+  - component: {fileID: 9198634490702998677}
   - component: {fileID: 7476664654788313045}
   - component: {fileID: 7476664654788313066}
   - component: {fileID: 7476664654788313067}
@@ -344,6 +345,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinsText: {fileID: 0}
   collectSoundEffect: {fileID: 7476664654788313067}
+--- !u!114 &9198634490702998677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7476664654788313053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ec41f8b1a739cd48838e218169392b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  health: 100
+  isAlive: 1
+  isInvincible: 0
+  invincibilityTime: 0.25
 --- !u!114 &7476664654788313045
 MonoBehaviour:
   m_ObjectHideFlags: 0
