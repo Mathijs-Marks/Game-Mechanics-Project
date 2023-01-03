@@ -34,20 +34,20 @@ public class CheckSurfaces : MonoBehaviour
         }
     }
 
-    private bool isGrounded;
-    private bool isOnWall;
-    private bool isOnCeiling;
+    [SerializeField] private bool isGrounded;
+    [SerializeField] private bool isOnWall;
+    [SerializeField] private bool isOnCeiling;
 
     private CapsuleCollider2D touchingCollider;
     private Animator animator;
 
     private Vector2 wallCheckDirection => gameObject.transform.localScale.x > 0 ? Vector2.right : Vector2.left;
 
-    private ContactFilter2D castFilter;
+    [SerializeField] private ContactFilter2D castFilter;
 
-    private float groundDistance = 0.05f;
-    private float wallDistance = 0.2f;
-    private float ceilingDistance = 0.05f;
+    [SerializeField] private float groundDistance = 0.05f;
+    [SerializeField] private float wallDistance = 0.2f;
+    [SerializeField] private float ceilingDistance = 0.05f;
 
     private RaycastHit2D[] groundHits = new RaycastHit2D[5];
     private RaycastHit2D[] wallHits = new RaycastHit2D[5];

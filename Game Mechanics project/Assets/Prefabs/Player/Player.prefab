@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 7476664654788313067}
   - component: {fileID: 7476664654788313065}
   - component: {fileID: 7476664654788313064}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 217a34da322f09a4f915f2ca6befab73, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -111,7 +111,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 3
+  m_GravityScale: 1.2
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -297,7 +297,7 @@ MonoBehaviour:
     m_Bits: 64
   jumpSoundEffect: {fileID: 7476664654788313066}
   moveSpeed: 5
-  jumpForce: 14
+  jumpForce: 8
 --- !u!114 &8652030482236273248
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -310,6 +310,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbdab6e015aa8614d853ce6da6d79d24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isGrounded: 0
+  isOnWall: 0
+  isOnCeiling: 0
+  castFilter:
+    useTriggers: 0
+    useLayerMask: 1
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 64
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
+  groundDistance: 0.05
+  wallDistance: 0.2
+  ceilingDistance: 0.05
 --- !u!114 &7476664654788313044
 MonoBehaviour:
   m_ObjectHideFlags: 0
