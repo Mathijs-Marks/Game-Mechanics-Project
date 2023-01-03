@@ -10,6 +10,7 @@ using UnityEngine;
 public static class GlobalReferenceManager
 {
     public static PlayerController PlayerScript;
+    public static CheckSurfaces CheckSurfacesScript;
     public static ItemCollector ItemCollectorScript;
     public static NPCInteraction NPCInteractionScript;
 }
