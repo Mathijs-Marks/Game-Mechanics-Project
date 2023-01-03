@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour
     public bool CanMove { get { return animator.GetBool(AnimationStrings.canMove); } }
 
     public bool IsAlive { get { return animator.GetBool(AnimationStrings.isAlive); } }
-    
+
     private bool isFacingRight = true;
 
     //private CapsuleCollider2D collider;
@@ -61,6 +61,8 @@ public class PlayerController : MonoBehaviour
 
 
     private PlayerAnimationState animationState;
+
+    private DamageController damageController;
 
     private SpriteRenderer sprite;
 
@@ -76,12 +78,15 @@ public class PlayerController : MonoBehaviour
         GlobalReferenceManager.PlayerScript = this;
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        damageController = GetComponent<DamageController>();
         sprite = GetComponent<SpriteRenderer>();
     }
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(moveInput.x * CurrentMoveSpeed, rb.velocity.y);
+        if(!damageController.LockVelocity)
+            rb.velocity = new Vector2(moveInput.x * CurrentMoveSpeed, rb.velocity.y);
+
         UpdateAnimationState();
     }
 
@@ -117,6 +122,11 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetTrigger(AnimationStrings.attackTrigger);
         }
+    }
+
+    public void OnHit(int damage, Vector2 knockback)
+    {
+        rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
     }
 
     private void SetFacingDirection(Vector2 moveInput)
