@@ -30,17 +30,39 @@ public class Skeleton : MonoBehaviour
         }
     }
 
+    public bool HasTarget { 
+        get { return hasTarget; } 
+        private set 
+        {
+            hasTarget = value;
+            animator.SetBool(AnimationStrings.hasTarget, value);
+        }
+    }
+
+    public bool CanMove { get { return animator.GetBool(AnimationStrings.canMove); } }
+
+    [SerializeField] private bool hasTarget = false;
+
     [SerializeField] private float walkSpeed = 3f;
+    [SerializeField] private float walkStopRate = 0.02f;
 
     private Rigidbody2D rb;
     private WalkableDirection walkDirection;
+    private Animator animator;
     private Vector2 walkDirectionVector = Vector2.right;
     private CheckSurfaces checkSurfaces;
+    [SerializeField] private DetectionZone attackZone;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent <Animator>();
         checkSurfaces= GetComponent<CheckSurfaces>();
+    }
+
+    private void Update()
+    {
+        HasTarget = attackZone.detectedColliders.Count > 0;
     }
 
     // Update is called once per frame
@@ -51,7 +73,10 @@ public class Skeleton : MonoBehaviour
             FlipDirection();
         }
 
-        rb.velocity = new Vector2(walkSpeed * walkDirectionVector.x, rb.velocity.y);
+        if (CanMove)
+            rb.velocity = new Vector2(walkSpeed * walkDirectionVector.x, rb.velocity.y);
+        else
+            rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, walkStopRate), rb.velocity.y);
     }
 
     private void FlipDirection()
