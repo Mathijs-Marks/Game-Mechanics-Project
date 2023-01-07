@@ -51,6 +51,7 @@ public class Skeleton : MonoBehaviour
     private Animator animator;
     private Vector2 walkDirectionVector = Vector2.right;
     private CheckSurfaces checkSurfaces;
+    private DamageController damageController;
     [SerializeField] private DetectionZone attackZone;
 
     void Awake()
@@ -58,6 +59,7 @@ public class Skeleton : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent <Animator>();
         checkSurfaces= GetComponent<CheckSurfaces>();
+        damageController = GetComponent<DamageController>();
     }
 
     private void Update()
@@ -73,10 +75,13 @@ public class Skeleton : MonoBehaviour
             FlipDirection();
         }
 
-        if (CanMove)
-            rb.velocity = new Vector2(walkSpeed * walkDirectionVector.x, rb.velocity.y);
-        else
-            rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, walkStopRate), rb.velocity.y);
+        if (!damageController.LockVelocity)
+        {
+            if (CanMove)
+                rb.velocity = new Vector2(walkSpeed * walkDirectionVector.x, rb.velocity.y);
+            else
+                rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, walkStopRate), rb.velocity.y);
+        }
     }
 
     private void FlipDirection()
@@ -93,5 +98,10 @@ public class Skeleton : MonoBehaviour
         {
             Debug.LogError("Current walk direction is not set to legal values of right or left!");
         }
+    }
+
+    public void OnHit(int damage, Vector2 knockback)
+    {
+        rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
     }
 }

@@ -13,4 +13,5 @@ public static class GlobalReferenceManager
     public static CheckSurfaces CheckSurfacesScript;
     public static ItemCollector ItemCollectorScript;
     public static NPCInteraction NPCInteractionScript;
+    public static DamageController DamageControllerScript;
 }
