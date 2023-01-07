@@ -218,7 +218,7 @@ Animator:
   m_GameObject: {fileID: 7476664654788313053}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0028ec2bbc166c44daf7a57d9a8e2a3c, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0048a881c25dbca48b1e7c76219a7d91, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -365,8 +365,8 @@ MonoBehaviour:
   controller:
   - {fileID: 9100000, guid: 0048a881c25dbca48b1e7c76219a7d91, type: 2}
   - {fileID: 9100000, guid: 0028ec2bbc166c44daf7a57d9a8e2a3c, type: 2}
-  - {fileID: 9100000, guid: 6f72709c47421054ab5db595e96a1ffa, type: 2}
-  - {fileID: 9100000, guid: 1de770210fc55e84b89f8d08116bbae8, type: 2}
+  - {fileID: 9100000, guid: 3913523305b038e499eda0e6a5431af4, type: 2}
+  - {fileID: 9100000, guid: df71322c020c8e94ea29a654c7fc5d05, type: 2}
   jumpableGround:
     serializedVersion: 2
     m_Bits: 64
