@@ -41,6 +41,12 @@ public class Skeleton : MonoBehaviour
 
     public bool CanMove { get { return animator.GetBool(AnimationStrings.canMove); } }
 
+    public float AttackCooldown 
+    { 
+        get { return animator.GetFloat(AnimationStrings.attackCooldown); }
+        private set { animator.SetFloat(AnimationStrings.attackCooldown, Mathf.Max(value, 0)); } 
+    }
+
     [SerializeField] private bool hasTarget = false;
 
     [SerializeField] private float walkSpeed = 3f;
@@ -53,6 +59,7 @@ public class Skeleton : MonoBehaviour
     private CheckSurfaces checkSurfaces;
     private DamageController damageController;
     [SerializeField] private DetectionZone attackZone;
+    [SerializeField] private DetectionZone cliffDetectionZone;
 
     void Awake()
     {
@@ -65,6 +72,9 @@ public class Skeleton : MonoBehaviour
     private void Update()
     {
         HasTarget = attackZone.detectedColliders.Count > 0;
+        
+        if(AttackCooldown > 0)
+            AttackCooldown -= Time.deltaTime;
     }
 
     // Update is called once per frame
@@ -103,5 +113,13 @@ public class Skeleton : MonoBehaviour
     public void OnHit(int damage, Vector2 knockback)
     {
         rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
+    }
+
+    public void OnCliffDetected()
+    {
+        if (checkSurfaces.IsGrounded)
+        {
+            FlipDirection();
+        }
     }
 }
