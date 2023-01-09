@@ -88,7 +88,7 @@ public class Skeleton : MonoBehaviour
 
         if (!damageController.LockVelocity)
         {
-            if (CanMove)
+            if (CanMove && checkSurfaces.IsGrounded)
             {
                 // Accelerate towards max speed
                 rb.velocity = new Vector2(

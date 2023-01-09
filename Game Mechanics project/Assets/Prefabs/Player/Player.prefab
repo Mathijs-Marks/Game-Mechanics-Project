@@ -418,6 +418,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackDamage: 20
   knockback: {x: 1, y: 0}
+--- !u!1 &6032209568208326339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6757086068831734843}
+  m_Layer: 0
+  m_Name: BowAttack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6757086068831734843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6032209568208326339}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.7, y: -0.05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7476664654788313041}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7476664654788313053
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,6 +468,7 @@ GameObject:
   - component: {fileID: 7476664654788313044}
   - component: {fileID: 9198634490702998677}
   - component: {fileID: 7476664654788313045}
+  - component: {fileID: 2854660741629406256}
   - component: {fileID: 7476664654788313066}
   - component: {fileID: 7476664654788313067}
   - component: {fileID: 7476664654788313065}
@@ -462,6 +494,7 @@ Transform:
   m_Children:
   - {fileID: 4948767938387546513}
   - {fileID: 7643017778246193417}
+  - {fileID: 6757086068831734843}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -564,7 +597,7 @@ Animator:
   m_GameObject: {fileID: 7476664654788313053}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: df71322c020c8e94ea29a654c7fc5d05, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3913523305b038e499eda0e6a5431af4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -810,6 +843,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathSoundEffect: {fileID: 7476664654788313065}
+--- !u!114 &2854660741629406256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7476664654788313053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5622a780f93a0b49ad8853eb7351432, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  launchPoint: {fileID: 6757086068831734843}
+  projectilePrefab: {fileID: 1072512167423176808, guid: 775c0bc5f5cc0ad4682741547410f702, type: 3}
 --- !u!82 &7476664654788313066
 AudioSource:
   m_ObjectHideFlags: 0
