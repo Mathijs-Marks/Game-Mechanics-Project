@@ -49,7 +49,8 @@ public class Skeleton : MonoBehaviour
 
     [SerializeField] private bool hasTarget = false;
 
-    [SerializeField] private float walkSpeed = 3f;
+    [SerializeField] private float walkAcceleration = 30f;
+    [SerializeField] private float maxSpeed = 3f;
     [SerializeField] private float walkStopRate = 0.02f;
 
     private Rigidbody2D rb;
@@ -88,7 +89,11 @@ public class Skeleton : MonoBehaviour
         if (!damageController.LockVelocity)
         {
             if (CanMove)
-                rb.velocity = new Vector2(walkSpeed * walkDirectionVector.x, rb.velocity.y);
+            {
+                // Accelerate towards max speed
+                rb.velocity = new Vector2(
+                    Mathf.Clamp(rb.velocity.x + (walkAcceleration * walkDirectionVector.x * Time.fixedDeltaTime), -maxSpeed, maxSpeed), rb.velocity.y);
+            }
             else
                 rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, walkStopRate), rb.velocity.y);
         }
