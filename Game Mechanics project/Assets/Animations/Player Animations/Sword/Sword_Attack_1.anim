@@ -60,7 +60,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: SwordAttack1
+    path: Sword/SwordAttack1
     classID: 60
     script: {fileID: 0}
   m_PPtrCurves:
@@ -95,7 +95,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 762327888
+      path: 322856482
       attribute: 3305885265
       script: {fileID: 0}
       typeID: 60
@@ -182,7 +182,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: SwordAttack1
+    path: Sword/SwordAttack1
     classID: 60
     script: {fileID: 0}
   m_EulerEditorCurves: []
