@@ -11,6 +11,8 @@ public class Float : MonoBehaviour
     // Sinus modifiers
     [SerializeField] private float amplitude = 0.5f;
     [SerializeField] private float frequency = 1f;
+    [SerializeField] private float degreesPerSecond = 15.0f;
+    [SerializeField] private bool canRotate = false;
 
     // Position Storage Variables
     Vector2 posOffset = new Vector2();
@@ -26,6 +28,12 @@ public class Float : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Spin object around Y-axis
+        if (canRotate)
+        {
+        transform.Rotate(new Vector3(0f, Time.deltaTime * degreesPerSecond, 0f), Space.World);
+        }
+
         // Float up/down with a Sin()
         tempPos = posOffset;
         tempPos.y += Mathf.Sin(Time.fixedTime * Mathf.PI * frequency) * amplitude;

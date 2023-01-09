@@ -97,4 +97,19 @@ public class DamageController : MonoBehaviour
         // Unable to be hit.
         return false;
     }
+
+    // Returns whether the character was healed or not
+    public bool Heal(int healthRestored)
+    {
+        if (isAlive && Health < MaxHealth)
+        {
+            int maxHeal = Mathf.Max(MaxHealth - Health, 0);
+            int actualHeal = Mathf.Min(maxHeal, healthRestored);
+            health += actualHeal;
+            CharacterEvents.characterHealed.Invoke(gameObject, actualHeal);
+            return true;
+        }
+
+        return false;
+    }
 }
