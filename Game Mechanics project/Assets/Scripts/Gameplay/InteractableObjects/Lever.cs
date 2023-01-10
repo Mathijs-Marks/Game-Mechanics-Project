@@ -2,17 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Lever : MonoBehaviour
+public class Lever : InteractableObject
 {
-    private Animator animator;
-
-    private void Awake()
-    {
-        animator = GetComponent<Animator>();
-    }
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        animator.SetTrigger(AnimationStrings.hitTrigger);
-    }
+    // TODO: Do something with a linked object to the lever
+    // (e.g. open/close doors, extend bridge, activate moving platform)
 }
