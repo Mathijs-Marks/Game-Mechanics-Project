@@ -46,8 +46,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.23350284, y: -0.10555604}
-  m_Size: {x: 0.46801335, y: 0.48181564}
+  m_Offset: {x: -0.105513215, y: -0.08}
+  m_Size: {x: 0.7239926, y: 0.7983092}
   m_Direction: 0
 --- !u!114 &6323843720383378524
 MonoBehaviour:
@@ -63,6 +63,64 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackDamage: 10
   knockback: {x: 0, y: 0}
+--- !u!1 &6724984560703557956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8093307268446726107}
+  - component: {fileID: 4234757459058545380}
+  m_Layer: 9
+  m_Name: DeathCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8093307268446726107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6724984560703557956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8498985268407795916}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &4234757459058545380
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6724984560703557956}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.46454573, y: -1.08}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.0431318, y: 0.053455353}
+  m_EdgeRadius: 0
 --- !u!1 &7060096963385706221
 GameObject:
   m_ObjectHideFlags: 0
@@ -99,6 +157,7 @@ Transform:
   m_Children:
   - {fileID: 7865830985529979761}
   - {fileID: 8318085900651422851}
+  - {fileID: 8093307268446726107}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -185,7 +244,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.12474817, y: 0.1968013}
@@ -225,6 +284,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hasTarget: 0
   attackDetectionZone: {fileID: 8841254354938352126}
+  flyingSpeed: 2
+  waypoints: []
+  waypointReachedDistance: 0.1
+  deathCollider: {fileID: 4234757459058545380}
 --- !u!114 &1371016831562354800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,8 +303,23 @@ MonoBehaviour:
   damageableHit:
     m_PersistentCalls:
       m_Calls: []
-  maxHealth: 100
-  health: 100
+  damageableDeath:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6522230250081300207}
+        m_TargetAssemblyTypeName: Bat, Assembly-CSharp
+        m_MethodName: OnDeath
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  maxHealth: 50
+  health: 50
   isAlive: 1
   isInvincible: 0
   invincibilityTime: 0.25
@@ -271,7 +349,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7301992104832731458}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3, y: 0.1, z: 0}
+  m_LocalPosition: {x: 1.1, y: 0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -307,6 +385,6 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.52, y: -0.060774714}
-  m_Size: {x: 0.81346977, y: 0.9424239}
+  m_Offset: {x: -0.4291687, y: 0.1}
+  m_Size: {x: 0.99513245, y: 1.0364194}
   m_Direction: 0
