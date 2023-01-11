@@ -22,7 +22,7 @@ TagManager:
   - EnemyHitBox
   - GroundDetection
   - Pickup
-  - 
+  - ObjectHitbox
   - 
   - 
   - 
