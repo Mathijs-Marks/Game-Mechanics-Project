@@ -290,4 +290,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   launchPoint: {fileID: 8025227399034011617}
-  projectilePrefab: {fileID: 1072512167423176808, guid: 775c0bc5f5cc0ad4682741547410f702, type: 3}
+  projectilePrefab: {fileID: 1072512167423176808, guid: bcf1bb7be001b1d4282d35235244d8d2, type: 3}
