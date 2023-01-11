@@ -4,7 +4,12 @@ using UnityEngine;
 
 public class Crossbow : MonoBehaviour
 {
-    // TODO: Actually an enemy. Shoots arrows at player.
+    public float AttackCooldown
+    {
+        get { return animator.GetFloat(AnimationStrings.attackCooldown); }
+        private set { animator.SetFloat(AnimationStrings.attackCooldown, Mathf.Max(value, 0)); }
+    }
+
     public bool HasTarget
     {
         get { return hasTarget; }
@@ -13,11 +18,6 @@ public class Crossbow : MonoBehaviour
             hasTarget = value;
             animator.SetBool(AnimationStrings.hasTarget, value);
         }
-    }
-    public float AttackCooldown
-    {
-        get { return animator.GetFloat(AnimationStrings.attackCooldown); }
-        private set { animator.SetFloat(AnimationStrings.attackCooldown, Mathf.Max(value, 0)); }
     }
 
     [SerializeField] private bool hasTarget = false;
@@ -36,12 +36,7 @@ public class Crossbow : MonoBehaviour
     {
         HasTarget = attackZone.detectedColliders.Count > 0;
 
-        if (AttackCooldown> 0)
+        if (AttackCooldown > 0)
             AttackCooldown -= Time.deltaTime;
-    }
-
-    public void OnAttack()
-    {
-        // TODO: check if you need this.
     }
 }
