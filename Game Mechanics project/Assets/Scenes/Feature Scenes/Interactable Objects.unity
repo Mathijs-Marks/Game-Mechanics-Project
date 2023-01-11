@@ -9820,7 +9820,7 @@ PrefabInstance:
     - target: {fileID: 7476664654788313047, guid: 9040ebd0806e97346b181daa3508e7a2, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 0028ec2bbc166c44daf7a57d9a8e2a3c, type: 2}
+      objectReference: {fileID: 9100000, guid: 3913523305b038e499eda0e6a5431af4, type: 2}
     - target: {fileID: 7476664654788313053, guid: 9040ebd0806e97346b181daa3508e7a2, type: 3}
       propertyPath: m_Name
       value: Player
