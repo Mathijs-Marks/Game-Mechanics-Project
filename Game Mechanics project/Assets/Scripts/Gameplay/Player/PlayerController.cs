@@ -110,7 +110,7 @@ public class PlayerController : MonoBehaviour
         // TODO: Check if alive as well.
         if (context.started && GlobalReferenceManager.CheckSurfacesScript.IsGrounded && CanMove)
         {
-            jumpSoundEffect.Play();
+            //jumpSoundEffect.Play();
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
     }
