@@ -750,7 +750,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   jumpSoundEffect: {fileID: 7476664654788313066}
-  moveSpeed: 5
+  moveSpeed: 4
   jumpForce: 8
 --- !u!114 &8652030482236273248
 MonoBehaviour:
@@ -826,6 +826,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   damageableDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  healthChanged:
     m_PersistentCalls:
       m_Calls: []
   maxHealth: 100
