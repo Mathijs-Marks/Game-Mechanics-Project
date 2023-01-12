@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -57,7 +56,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
 
     private Animator animator;
-    [SerializeField] private AnimatorController[] controller;
+    [SerializeField] private RuntimeAnimatorController[] controller;
 
 
     private PlayerAnimationState animationState;

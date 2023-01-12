@@ -5,16 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UI Scenes/Start Scene.unity
     guid: 4088a23927cb16146b730ef266b95755
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level Scenes/Level 1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Level Scenes/Level 2.unity
     guid: 40e6bb192cf49b74e8bdba2a5515c508
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/UI Scenes/End Scene.unity
     guid: a6cbd6fbb13547d439de451a00f70bd9
+  - enabled: 1
+    path: Assets/Scenes/Feature Scenes/Flying Enemy.unity
+    guid: cd4c1629b75fdbe478ca66909c3db18a
   m_configObjects: {}
