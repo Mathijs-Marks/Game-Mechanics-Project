@@ -724,6 +724,26 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 281cec1c-6a6e-415f-a23a-0bcd85228e52
     m_ActionName: Player/Jump[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3619296526114608892}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnRoll
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: a3bf6b28-d635-4cf5-9921-990a5588578f
+    m_ActionName: Player/Roll[/Keyboard/leftShift]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: f42c2b2c-7400-4db6-8eb1-19370a8f717a
+    m_ActionName: UI/Escape[/Keyboard/escape]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -752,6 +772,7 @@ MonoBehaviour:
   jumpSoundEffect: {fileID: 7476664654788313066}
   moveSpeed: 4
   jumpForce: 8
+  rollForce: 14
 --- !u!114 &8652030482236273248
 MonoBehaviour:
   m_ObjectHideFlags: 0

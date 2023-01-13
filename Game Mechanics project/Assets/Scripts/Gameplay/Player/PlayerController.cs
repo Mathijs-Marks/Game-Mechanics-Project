@@ -50,6 +50,12 @@ public class PlayerController : MonoBehaviour
 
     public bool IsAlive { get { return animator.GetBool(AnimationStrings.isAlive); } }
 
+    public float RollCooldown
+    {
+        get { return animator.GetFloat(AnimationStrings.rollCooldown); }
+        private set { animator.SetFloat(AnimationStrings.rollCooldown, Mathf.Max(value, 0)); }
+    }
+
     private bool isFacingRight = true;
 
     //private CapsuleCollider2D collider;
@@ -70,6 +76,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float jumpForce = 14f;
+    [SerializeField] private float rollForce = 14f;
     private Vector2 moveInput;
 
     private void Awake()
@@ -79,6 +86,12 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         damageController = GetComponent<DamageController>();
         sprite = GetComponent<SpriteRenderer>();
+    }
+
+    private void Update()
+    {
+        if (RollCooldown > 0)
+            RollCooldown -= Time.deltaTime;
     }
 
     private void FixedUpdate()
@@ -120,6 +133,18 @@ public class PlayerController : MonoBehaviour
         if (context.started)
         {
             animator.SetTrigger(AnimationStrings.attackTrigger);
+        }
+    }
+
+    public void OnRoll(InputAction.CallbackContext context)
+    {
+        if (context.started && GlobalReferenceManager.CheckSurfacesScript.IsGrounded && CanMove)
+        {
+            if (RollCooldown == 0)
+            {
+                animator.SetTrigger(AnimationStrings.rollTrigger);
+                rb.velocity = new Vector2(rollForce, rb.velocity.y);
+            }
         }
     }
 
