@@ -93,6 +93,15 @@ public class PlayerController : MonoBehaviour
     {
         if (RollCooldown > 0)
             RollCooldown -= Time.deltaTime;
+
+        if (RollCooldown > 0.5)
+        {
+            damageController.IsInvincible = true;
+        }
+        else
+        {
+            damageController.IsInvincible = false;
+        }
     }
 
     private void FixedUpdate()
