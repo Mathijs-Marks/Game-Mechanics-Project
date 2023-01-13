@@ -76,7 +76,7 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float jumpForce = 14f;
-    [SerializeField] private float rollForce = 14f;
+    [SerializeField] private Vector2 rollForce = Vector2.zero;
     private Vector2 moveInput;
 
     private void Awake()
@@ -88,7 +88,8 @@ public class PlayerController : MonoBehaviour
         sprite = GetComponent<SpriteRenderer>();
     }
 
-    private void Update()
+    // Update is called once per frame
+    void Update()
     {
         if (RollCooldown > 0)
             RollCooldown -= Time.deltaTime;
@@ -140,11 +141,9 @@ public class PlayerController : MonoBehaviour
     {
         if (context.started && GlobalReferenceManager.CheckSurfacesScript.IsGrounded && CanMove)
         {
-            if (RollCooldown == 0)
-            {
-                animator.SetTrigger(AnimationStrings.rollTrigger);
-                rb.velocity = new Vector2(rollForce, rb.velocity.y);
-            }
+            animator.SetTrigger(AnimationStrings.rollTrigger);
+            Vector2 rollDirection = transform.localScale.x > 0 ? rollForce : new Vector2(-rollForce.x, rollForce.y);
+            rb.velocity = rollDirection;
         }
     }
 
