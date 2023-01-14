@@ -54,6 +54,13 @@ public class DamageController : MonoBehaviour
         set { animator.SetBool(AnimationStrings.lockVelocity, value); }
     }
 
+    public bool IsInvincible 
+    { 
+        get { return isInvincible; } 
+        set { isInvincible = value; }
+    }
+
+
     private Animator animator;
     
     [SerializeField] private int maxHealth = 100;
