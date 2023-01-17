@@ -53,6 +53,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 6
     m_ConditionEvent: state
     m_EventTreshold: 2
+  - m_ConditionMode: 1
+    m_ConditionEvent: isGrounded
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2331910133637119668}
   m_Solo: 0
@@ -395,6 +398,9 @@ AnimatorTransition:
   - m_ConditionMode: 6
     m_ConditionEvent: state
     m_EventTreshold: 2
+  - m_ConditionMode: 1
+    m_ConditionEvent: isGrounded
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 2331910133637119668}
   m_Solo: 0

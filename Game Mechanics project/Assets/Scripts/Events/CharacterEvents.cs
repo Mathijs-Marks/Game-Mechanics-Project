@@ -16,4 +16,7 @@ public class CharacterEvents : MonoBehaviour
 
     // Character loses a key
     public static UnityAction<int> keysLost;
+
+    // Character is in rollTooltipCollider
+    public static UnityAction<GameObject> rollTooltip;
 }

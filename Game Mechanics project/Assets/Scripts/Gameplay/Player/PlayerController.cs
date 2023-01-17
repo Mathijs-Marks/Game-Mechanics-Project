@@ -188,11 +188,11 @@ public class PlayerController : MonoBehaviour
             animationState = PlayerAnimationState.Idle;
         }
 
-        if (rb.velocity.y > .1f)
+        if (rb.velocity.y > .1f && checkSurfaces.IsGrounded == false)
         {
             animationState = PlayerAnimationState.Jumping;
         }
-        else if (rb.velocity.y < -.1f)
+        else if (rb.velocity.y < -.1f && checkSurfaces.IsGrounded == false)
         {
             animationState = PlayerAnimationState.Falling;
         }
