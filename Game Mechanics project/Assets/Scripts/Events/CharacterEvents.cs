@@ -10,4 +10,10 @@ public class CharacterEvents : MonoBehaviour
 
     // Character healed and amount healed
     public static UnityAction<GameObject, int> characterHealed;
+
+    // Character receives a key
+    public static UnityAction<int> keysReceived;
+
+    // Character loses a key
+    public static UnityAction<int> keysLost;
 }

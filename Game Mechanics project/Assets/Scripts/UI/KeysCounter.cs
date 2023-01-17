@@ -5,16 +5,36 @@ using UnityEngine;
 
 public class KeysCounter : MonoBehaviour
 {
+    public int AmountOfKeys
+    {
+        get { return amountOfKeys; }
+        set { amountOfKeys = value; }
+    }
+
+    [SerializeField] private int amountOfKeys;
     [SerializeField] TextMeshProUGUI keysText;
-    [SerializeField] private KeyPickup key;
 
     private void OnEnable()
     {
-        key.amountOfKeysChanged.AddListener(OnKeyChanged);
+        CharacterEvents.keysReceived += OnKeyReceived;
+        CharacterEvents.keysLost += OnKeyLost;
     }
 
-    public void OnKeyChanged(int keys)
+    private void OnDisable()
     {
-        keysText.text = "Keys: " + key.AmountOfKeys;
+        CharacterEvents.keysReceived -= OnKeyReceived;
+        CharacterEvents.keysLost -= OnKeyLost;
+    }
+
+    public void OnKeyReceived(int receivedKeys)
+    {
+        amountOfKeys += receivedKeys;
+        keysText.text = "Keys: " + amountOfKeys;
+    }
+
+    public void OnKeyLost(int lostKeys)
+    {
+        amountOfKeys -= lostKeys;
+        keysText.text = "Keys: " + amountOfKeys;
     }
 }
