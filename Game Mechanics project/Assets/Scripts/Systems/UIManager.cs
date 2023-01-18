@@ -8,6 +8,7 @@ public class UIManager : MonoBehaviour
 {
     [SerializeField] private GameObject damageTextPrefab;
     [SerializeField] private GameObject healthTextPrefab;
+    [SerializeField] private GameObject rollTooltipPrefab;
     [SerializeField] private Canvas gameCanvas;
 
     private void Awake()
@@ -19,12 +20,14 @@ public class UIManager : MonoBehaviour
     {
         CharacterEvents.characterDamaged += CharacterTookDamage;
         CharacterEvents.characterHealed += CharacterHealed;
+        CharacterEvents.rollTooltip += RollTooltip;
     }
 
     private void OnDisable()
     {
         CharacterEvents.characterDamaged -= CharacterTookDamage;
         CharacterEvents.characterHealed -= CharacterHealed;
+        CharacterEvents.rollTooltip -= RollTooltip;
     }
 
     public void CharacterTookDamage(GameObject character, int damageReceived)
@@ -47,6 +50,15 @@ public class UIManager : MonoBehaviour
             .GetComponent<TMP_Text>();
 
         healthText.text = healthRestored.ToString();
+    }
+
+    public void RollTooltip(GameObject character)
+    {
+        Vector3 spawnPosition = Camera.main.WorldToScreenPoint(character.transform.position);
+        TMP_Text rollTooltip = Instantiate(rollTooltipPrefab, spawnPosition, Quaternion.identity, gameCanvas.transform)
+            .GetComponent<TMP_Text>();
+        
+        rollTooltip.text = "Press Shift to dodge!";
     }
 
     public void OnExitGame(InputAction.CallbackContext context)

@@ -29,6 +29,10 @@ public class ItemCollector : MonoBehaviour
         {
             CollectCoin(collision);
         }
+        else if (collision.gameObject.CompareTag("Key"))
+        {
+            PlayCollectSoundEffect();
+        }
         else if (collision.gameObject.name == "Sword")
         {
             CollectWeapon(collision, PlayerWeaponState.Sword);
@@ -62,5 +66,10 @@ public class ItemCollector : MonoBehaviour
         Destroy(collision.gameObject);
         GlobalReferenceManager.PlayerScript.UpdateSpriteState(weaponState);
 
+    }
+
+    private void PlayCollectSoundEffect()
+    {
+        collectSoundEffect.Play();
     }
 }

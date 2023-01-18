@@ -68,6 +68,7 @@ public class PlayerController : MonoBehaviour
     private PlayerAnimationState animationState;
 
     private DamageController damageController;
+    private CheckSurfaces checkSurfaces;
 
     private SpriteRenderer sprite;
 
@@ -85,6 +86,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         damageController = GetComponent<DamageController>();
+        checkSurfaces = GetComponent<CheckSurfaces>();
         sprite = GetComponent<SpriteRenderer>();
     }
 
@@ -131,9 +133,10 @@ public class PlayerController : MonoBehaviour
     public void OnJump(InputAction.CallbackContext context)
     {
         // TODO: Check if alive as well.
-        if (context.started && GlobalReferenceManager.CheckSurfacesScript.IsGrounded && CanMove)
+        if (context.started && checkSurfaces.IsGrounded && CanMove)
         {
             //jumpSoundEffect.Play();
+            animator.SetTrigger("jump");
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
     }
@@ -148,7 +151,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnRoll(InputAction.CallbackContext context)
     {
-        if (context.started && GlobalReferenceManager.CheckSurfacesScript.IsGrounded && CanMove)
+        if (context.started && checkSurfaces.IsGrounded && CanMove)
         {
             animator.SetTrigger(AnimationStrings.rollTrigger);
             Vector2 rollDirection = transform.localScale.x > 0 ? rollForce : new Vector2(-rollForce.x, rollForce.y);
@@ -186,11 +189,11 @@ public class PlayerController : MonoBehaviour
             animationState = PlayerAnimationState.Idle;
         }
 
-        if (rb.velocity.y > .1f)
+        if (rb.velocity.y > .1f /*&& checkSurfaces.IsGrounded == false*/)
         {
             animationState = PlayerAnimationState.Jumping;
         }
-        else if (rb.velocity.y < -.1f)
+        else if (rb.velocity.y < -.1f && checkSurfaces.IsGrounded == false)
         {
             animationState = PlayerAnimationState.Falling;
         }
