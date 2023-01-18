@@ -1651,7 +1651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2451566298037932883, guid: c5344c382b6991a40944d14e3f1ce60b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.738
+      value: -0.69
       objectReference: {fileID: 0}
     - target: {fileID: 2451566298037932883, guid: c5344c382b6991a40944d14e3f1ce60b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -37420,7 +37420,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1499531349}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -48.51, y: -4.15, z: -10}
+  m_LocalPosition: {x: -46.8, y: -3.4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -37938,7 +37938,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624257573}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -48.51, y: -4.15, z: -10}
+  m_LocalPosition: {x: -46.8, y: -3.4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -39703,11 +39703,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7476664654788313041, guid: 9040ebd0806e97346b181daa3508e7a2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -48.51
+      value: -46.8
       objectReference: {fileID: 0}
     - target: {fileID: 7476664654788313041, guid: 9040ebd0806e97346b181daa3508e7a2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.15
+      value: -3.4
       objectReference: {fileID: 0}
     - target: {fileID: 7476664654788313041, guid: 9040ebd0806e97346b181daa3508e7a2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -39745,17 +39745,9 @@ PrefabInstance:
       propertyPath: coinsText
       value: 
       objectReference: {fileID: 309476521}
-    - target: {fileID: 7476664654788313047, guid: 9040ebd0806e97346b181daa3508e7a2, type: 3}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: 0048a881c25dbca48b1e7c76219a7d91, type: 2}
     - target: {fileID: 7476664654788313053, guid: 9040ebd0806e97346b181daa3508e7a2, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 8652030482236273248, guid: 9040ebd0806e97346b181daa3508e7a2, type: 3}
-      propertyPath: wallDistance
-      value: 0.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9040ebd0806e97346b181daa3508e7a2, type: 3}

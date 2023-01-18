@@ -75,8 +75,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595f44fe1269904408f915a23d57dc46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 30
-  knockback: {x: 5, y: 0}
+  attackDamage: 25
+  knockback: {x: 3, y: 0}
 --- !u!1 &555752396401210815
 GameObject:
   m_ObjectHideFlags: 0
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595f44fe1269904408f915a23d57dc46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 20
+  attackDamage: 15
   knockback: {x: 1, y: 0}
 --- !u!1 &2779850349322011148
 GameObject:
@@ -340,7 +340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 25
-  knockback: {x: 5, y: 0}
+  knockback: {x: 2, y: 0}
 --- !u!1 &4231910498431636452
 GameObject:
   m_ObjectHideFlags: 0
@@ -416,7 +416,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595f44fe1269904408f915a23d57dc46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 20
+  attackDamage: 10
   knockback: {x: 1, y: 0}
 --- !u!1 &6032209568208326339
 GameObject:
@@ -772,7 +772,7 @@ MonoBehaviour:
   jumpSoundEffect: {fileID: 7476664654788313066}
   moveSpeed: 4
   jumpForce: 8
-  rollForce: {x: 10, y: 0}
+  rollForce: {x: 8, y: 0}
 --- !u!114 &8652030482236273248
 MonoBehaviour:
   m_ObjectHideFlags: 0
