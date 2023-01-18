@@ -136,6 +136,7 @@ public class PlayerController : MonoBehaviour
         if (context.started && checkSurfaces.IsGrounded && CanMove)
         {
             //jumpSoundEffect.Play();
+            animator.SetTrigger("jump");
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
     }
@@ -188,7 +189,7 @@ public class PlayerController : MonoBehaviour
             animationState = PlayerAnimationState.Idle;
         }
 
-        if (rb.velocity.y > .1f && checkSurfaces.IsGrounded == false)
+        if (rb.velocity.y > .1f /*&& checkSurfaces.IsGrounded == false*/)
         {
             animationState = PlayerAnimationState.Jumping;
         }
