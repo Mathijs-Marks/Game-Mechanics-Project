@@ -76,7 +76,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 25
-  knockback: {x: 3, y: 0}
+  knockback: {x: 1, y: 0}
 --- !u!1 &555752396401210815
 GameObject:
   m_ObjectHideFlags: 0
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 15
-  knockback: {x: 1, y: 0}
+  knockback: {x: 0, y: 0}
 --- !u!1 &2779850349322011148
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 15
-  knockback: {x: 1, y: 0}
+  knockback: {x: 0, y: 0}
 --- !u!1 &3568362422931683854
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,7 +340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 25
-  knockback: {x: 2, y: 0}
+  knockback: {x: 1, y: 0}
 --- !u!1 &4231910498431636452
 GameObject:
   m_ObjectHideFlags: 0
@@ -417,7 +417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 10
-  knockback: {x: 1, y: 0}
+  knockback: {x: 0, y: 0}
 --- !u!1 &6032209568208326339
 GameObject:
   m_ObjectHideFlags: 0
