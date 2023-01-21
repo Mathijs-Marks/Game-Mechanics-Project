@@ -19,4 +19,7 @@ public class CharacterEvents : MonoBehaviour
 
     // Character is in rollTooltipCollider
     public static UnityAction<GameObject> rollTooltip;
+
+    // Character loses a life
+    public static UnityAction characterLosesLife;
 }

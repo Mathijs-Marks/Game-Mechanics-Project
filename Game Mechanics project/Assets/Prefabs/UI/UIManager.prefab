@@ -146,6 +146,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: f42c2b2c-7400-4db6-8eb1-19370a8f717a
     m_ActionName: UI/Escape[/Keyboard/escape]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a3bf6b28-d635-4cf5-9921-990a5588578f
+    m_ActionName: Player/Roll[/Keyboard/leftShift]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: UI

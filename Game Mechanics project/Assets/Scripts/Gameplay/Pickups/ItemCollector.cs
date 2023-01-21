@@ -21,6 +21,7 @@ public class ItemCollector : MonoBehaviour
     private void Awake()
     {
         GlobalReferenceManager.ItemCollectorScript = this;
+        UpdateCoins(GameManager.Instance.Coins);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -51,8 +52,8 @@ public class ItemCollector : MonoBehaviour
     {
         collectSoundEffect.Play();
         Destroy(collision.gameObject.transform.parent.gameObject);
-        amountOfCoins++;
-        UpdateCoins(amountOfCoins);
+        GameManager.Instance.Coins++;
+        UpdateCoins(GameManager.Instance.Coins);
     }
 
     public void UpdateCoins(int amountOfCoins)
