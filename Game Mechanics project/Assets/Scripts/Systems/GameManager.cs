@@ -56,6 +56,9 @@ public class GameManager : MonoBehaviour
         if (lives == 0)
         {
             GameOver();
+            //TODO: When using invoke, both restartlevel and gameover try to execute after 3 lives lost.
+            // This results in first the level restarting, then the player being set back to level 1, then infinitely loading level 1
+            //Invoke("GameOver", 2f);
         }
     }
 

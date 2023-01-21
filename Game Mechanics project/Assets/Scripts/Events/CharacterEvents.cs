@@ -21,5 +21,5 @@ public class CharacterEvents : MonoBehaviour
     public static UnityAction<GameObject> rollTooltip;
 
     // Character loses a life
-    public static UnityAction characterLosesLife;
+    public static UnityAction<GameObject> characterLosesLife;
 }

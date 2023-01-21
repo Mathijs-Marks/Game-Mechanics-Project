@@ -21,10 +21,6 @@ public class LifeCounter : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-    }
-
     private void OnEnable()
     {
         CharacterEvents.characterLosesLife += LoseLife;
@@ -32,14 +28,18 @@ public class LifeCounter : MonoBehaviour
 
     private void OnDisable()
     {
-        CharacterEvents.characterLosesLife -= LoseLife;  
+        CharacterEvents.characterLosesLife -= LoseLife;
     }
 
-    public void LoseLife()
+    public void LoseLife(GameObject character)
     {
-        GameManager.Instance.Keys = 0;
-        GameManager.Instance.Lives--;
-        liveImages[GameManager.Instance.Lives].sprite = emptyLifeSprite;
+        if (character.tag == "Player")
+        {
+            GameManager.Instance.Keys = 0;
+            GameManager.Instance.Lives--;
+            liveImages[GameManager.Instance.Lives].sprite = emptyLifeSprite;
+        }
+
     }
 
 }

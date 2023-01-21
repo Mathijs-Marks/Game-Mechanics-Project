@@ -42,7 +42,7 @@ public class DamageController : MonoBehaviour
             if (value == false)
             {
                 damageableDeath.Invoke();
-                CharacterEvents.characterLosesLife.Invoke();
+                CharacterEvents.characterLosesLife.Invoke(gameObject);
             }
         }
     }
