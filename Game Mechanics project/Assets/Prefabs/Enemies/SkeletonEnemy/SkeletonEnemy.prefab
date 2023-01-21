@@ -61,8 +61,8 @@ PolygonCollider2D:
     - - {x: -0.5610504, y: 0.777514}
       - {x: -0.5979815, y: 0.21712044}
       - {x: -0.61680454, y: -0.59620464}
-      - {x: 0.3217703, y: -0.39790177}
-      - {x: 0.49157524, y: -0.053731263}
+      - {x: 0.4951483, y: -0.46724916}
+      - {x: 0.7227459, y: 0.015619934}
 --- !u!114 &398394069584315718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,11 +330,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.39176846, y: -0.3349142}
+    - - {x: 0.7385168, y: -0.19621181}
       - {x: -0.7140618, y: -0.26170728}
       - {x: -0.7957606, y: -0.673591}
       - {x: 0.1379782, y: -0.7171204}
-      - {x: 0.32712936, y: -0.61478215}
+      - {x: 0.53518295, y: -0.6032236}
 --- !u!114 &5729625253878788022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -347,7 +347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595f44fe1269904408f915a23d57dc46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackDamage: 15
+  attackDamage: 10
   knockback: {x: 5, y: 2}
 --- !u!1 &8840889510589252718
 GameObject:

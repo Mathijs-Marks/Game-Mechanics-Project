@@ -50,7 +50,7 @@ public class ItemCollector : MonoBehaviour
     private void CollectCoin(Collider2D collision)
     {
         collectSoundEffect.Play();
-        Destroy(collision.gameObject);
+        Destroy(collision.gameObject.transform.parent.gameObject);
         amountOfCoins++;
         UpdateCoins(amountOfCoins);
     }

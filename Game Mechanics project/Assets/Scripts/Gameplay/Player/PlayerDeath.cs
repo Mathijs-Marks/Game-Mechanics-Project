@@ -7,8 +7,14 @@ public class PlayerDeath : MonoBehaviour
 {
     private Animator animator;
     private Rigidbody2D rb;
+    private DamageController damageable;
 
     [SerializeField] private AudioSource deathSoundEffect;
+
+    private void Awake()
+    {
+        damageable = GetComponent<DamageController>();
+    }
 
     // Start is called before the first frame update
     private void Start()
@@ -19,7 +25,7 @@ public class PlayerDeath : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Trap"))
+        if (collision.gameObject.CompareTag("Trap") && damageable.IsInvincible == false)
         {
             Die();
         }
@@ -27,9 +33,9 @@ public class PlayerDeath : MonoBehaviour
 
     private void Die()
     {
-        deathSoundEffect.Play();
+        damageable.IsAlive = false;
         animator.SetTrigger(AnimationStrings.deathTrigger); // Set trigger for animator, which then executes RestartLevel()
-        rb.bodyType = RigidbodyType2D.Static;
+        //rb.bodyType = RigidbodyType2D.Static;
     }
 
     private void RestartLevel()
