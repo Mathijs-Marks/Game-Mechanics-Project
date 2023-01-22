@@ -62,12 +62,25 @@ public class Skeleton : MonoBehaviour
     [SerializeField] private DetectionZone attackZone;
     [SerializeField] private DetectionZone cliffDetectionZone;
 
+    [SerializeField] private GameObject coinPrefab;
+    private int randomAmountOfCoins;
+
+    private void OnEnable()
+    {
+        damageController.damageableDeath.AddListener(OnDeath);
+    }
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent <Animator>();
         checkSurfaces= GetComponent<CheckSurfaces>();
         damageController = GetComponent<DamageController>();
+    }
+
+    private void Start()
+    {
+        randomAmountOfCoins = UnityEngine.Random.Range(0, 2);
     }
 
     private void Update()
@@ -118,6 +131,18 @@ public class Skeleton : MonoBehaviour
     public void OnHit(int damage, Vector2 knockback)
     {
         rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
+    }
+
+    public void OnDeath()
+    {
+        Vector2 trajectory = UnityEngine.Random.insideUnitCircle * 200f;
+        for (int i = 0; i < randomAmountOfCoins; i++)
+        {
+            GameObject coin = Instantiate(coinPrefab, transform.position, Quaternion.identity);
+            coin.GetComponent<Rigidbody2D>().AddForce(new Vector2(
+                UnityEngine.Random.Range(-100f, 100f) + trajectory.x, UnityEngine.Random.Range(50f, 100f) + trajectory.y));
+            Debug.Log("Coins spawned: " + randomAmountOfCoins);
+        }
     }
 
     public void OnCliffDetected()

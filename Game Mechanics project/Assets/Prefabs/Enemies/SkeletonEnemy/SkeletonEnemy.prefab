@@ -517,6 +517,7 @@ MonoBehaviour:
   walkStopRate: 0.02
   attackZone: {fileID: 1719041429638484355}
   cliffDetectionZone: {fileID: 4336878473848195931}
+  coinPrefab: {fileID: 5675785132699423803, guid: 00e784e4b72ca6648aebac0b091b017e, type: 3}
 --- !u!114 &2107613897457384281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -582,8 +583,8 @@ MonoBehaviour:
   healthChanged:
     m_PersistentCalls:
       m_Calls: []
-  maxHealth: 100
-  health: 100
+  maxHealth: 75
+  health: 75
   isAlive: 1
   isInvincible: 0
-  invincibilityTime: 0.25
+  invincibilityTime: 0.425
