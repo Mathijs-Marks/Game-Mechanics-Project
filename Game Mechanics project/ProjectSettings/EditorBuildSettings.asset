@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Level Scenes/Level 3.unity
     guid: a8851d0669e7f1a4eb4c6decb6d9679a
   - enabled: 1
+    path: Assets/Scenes/Level Scenes/Blacksmith.unity
+    guid: 544794df269d07e43a4a889bd4884c63
+  - enabled: 1
     path: Assets/Scenes/UI Scenes/End Scene.unity
     guid: a6cbd6fbb13547d439de451a00f70bd9
   m_configObjects: {}

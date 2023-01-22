@@ -5,6 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    public PlayerWeaponState WeaponState
+    {
+        get { return weaponState; }
+        set { weaponState = value; }
+    }
+
     public int Lives
     {
         get { return lives; }
@@ -23,6 +29,12 @@ public class GameManager : MonoBehaviour
         set { keys = value; }
     }
 
+    public int HighestLevelCompleted
+    {
+        get { return highestLevelCompleted; }
+        set { highestLevelCompleted = value; }
+    }
+
     // Static reference
     public static GameManager Instance;
 
@@ -30,6 +42,8 @@ public class GameManager : MonoBehaviour
     private int lives;
     private int coins;
     private int keys;
+    private int highestLevelCompleted;
+    private PlayerWeaponState weaponState;
 
     private void Awake()
     {
@@ -51,21 +65,36 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private void OnEnable()
+    {
+        CharacterEvents.chooseLevel += LoadLevel;
+    }
+
+    private void OnDisable() 
+    {
+        CharacterEvents.chooseLevel -= LoadLevel;
+    }
+
     private void Update()
     {
         if (lives == 0)
         {
-            GameOver();
+            //GameOver();
             //TODO: When using invoke, both restartlevel and gameover try to execute after 3 lives lost.
             // This results in first the level restarting, then the player being set back to level 1, then infinitely loading level 1
-            //Invoke("GameOver", 2f);
+            lives = 3;
+            Invoke("GameOver", 2f);
         }
     }
 
-    void GameOver()
+    private void GameOver()
     {
         Debug.Log("You lost all lives!");
-        lives = 3;
         SceneManager.LoadScene("Level 1");
+    }
+
+    private void LoadLevel(string levelName)
+    {
+        SceneManager.LoadScene(levelName);
     }
 }

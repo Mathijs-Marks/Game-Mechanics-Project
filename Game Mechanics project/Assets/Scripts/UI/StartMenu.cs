@@ -7,6 +7,6 @@ public class StartMenu : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("Level 1");
+        CharacterEvents.chooseLevel.Invoke("Blacksmith");
     }
 }

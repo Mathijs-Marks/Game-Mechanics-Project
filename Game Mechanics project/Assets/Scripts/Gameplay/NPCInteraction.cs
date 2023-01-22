@@ -6,10 +6,12 @@ public class NPCInteraction : MonoBehaviour
 {
     private Animator animator;
     [SerializeField] private Canvas canvas;
+    [SerializeField] private GameObject potionPrefab;
 
     private int swordCost = 3;
     private int bowCost = 6;
     private int spearCost = 9;
+    private int potionCost = 2;
 
     private void Awake()
     {
@@ -42,9 +44,9 @@ public class NPCInteraction : MonoBehaviour
 
     public void EquipSword()
     {
-        if (GlobalReferenceManager.ItemCollectorScript.AmountOfCoins >= swordCost)
+        if (GameManager.Instance.Coins >= swordCost)
         {
-            int updatedCoins = GlobalReferenceManager.ItemCollectorScript.AmountOfCoins -= swordCost;
+            int updatedCoins = GameManager.Instance.Coins -= swordCost;
             GlobalReferenceManager.ItemCollectorScript.UpdateCoins(updatedCoins);
             GlobalReferenceManager.PlayerScript.UpdateSpriteState(PlayerWeaponState.Sword);
         }
@@ -56,9 +58,9 @@ public class NPCInteraction : MonoBehaviour
 
     public void EquipBow()
     {
-        if (GlobalReferenceManager.ItemCollectorScript.AmountOfCoins >= bowCost)
+        if (GameManager.Instance.Coins >= bowCost)
         {
-            int updatedCoins = GlobalReferenceManager.ItemCollectorScript.AmountOfCoins -= bowCost;
+            int updatedCoins = GameManager.Instance.Coins -= bowCost;
             GlobalReferenceManager.ItemCollectorScript.UpdateCoins(updatedCoins);
             GlobalReferenceManager.PlayerScript.UpdateSpriteState(PlayerWeaponState.Bow);
         }
@@ -70,11 +72,25 @@ public class NPCInteraction : MonoBehaviour
 
     public void EquipSpear()
     {
-        if (GlobalReferenceManager.ItemCollectorScript.AmountOfCoins >= spearCost)
+        if (GameManager.Instance.Coins >= spearCost)
         {
-            int updatedCoins = GlobalReferenceManager.ItemCollectorScript.AmountOfCoins -= spearCost;
+            int updatedCoins = GameManager.Instance.Coins -= spearCost;
             GlobalReferenceManager.ItemCollectorScript.UpdateCoins(updatedCoins);
             GlobalReferenceManager.PlayerScript.UpdateSpriteState(PlayerWeaponState.Spear);
+        }
+        else
+        {
+            Debug.Log("You don't have enough coins!");
+        }
+    }
+
+    public void BuyPotion()
+    {
+        if (GameManager.Instance.Coins >= potionCost)
+        {
+            int updatedCoins = GameManager.Instance.Coins -= potionCost;
+            GlobalReferenceManager.ItemCollectorScript.UpdateCoins(updatedCoins);
+            Instantiate(potionPrefab, transform.position, Quaternion.identity);
         }
         else
         {

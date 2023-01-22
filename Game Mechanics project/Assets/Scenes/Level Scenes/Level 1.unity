@@ -1225,6 +1225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chest
       objectReference: {fileID: 0}
+    - target: {fileID: 7056785809988250894, guid: fcca6215de22b494a893ff10156ceefd, type: 3}
+      propertyPath: canSpawnKey
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcca6215de22b494a893ff10156ceefd, type: 3}
 --- !u!4 &650063856 stripped
@@ -13314,7 +13318,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1499531349}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -46.46, y: -4.3, z: -10}
+  m_LocalPosition: {x: -46.5, y: -4.25, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13581,7 +13585,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624257573}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -46.46, y: -4.3, z: -10}
+  m_LocalPosition: {x: -46.5, y: -4.25, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -20659,11 +20663,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7476664654788313041, guid: 9040ebd0806e97346b181daa3508e7a2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -46.46
+      value: -46.5
       objectReference: {fileID: 0}
     - target: {fileID: 7476664654788313041, guid: 9040ebd0806e97346b181daa3508e7a2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.3
+      value: -4.25
       objectReference: {fileID: 0}
     - target: {fileID: 7476664654788313041, guid: 9040ebd0806e97346b181daa3508e7a2, type: 3}
       propertyPath: m_LocalPosition.z

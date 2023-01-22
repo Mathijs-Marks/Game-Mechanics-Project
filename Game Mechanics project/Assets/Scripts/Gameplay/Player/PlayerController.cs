@@ -88,6 +88,8 @@ public class PlayerController : MonoBehaviour
         damageController = GetComponent<DamageController>();
         checkSurfaces = GetComponent<CheckSurfaces>();
         sprite = GetComponent<SpriteRenderer>();
+
+        UpdateSpriteState(GameManager.Instance.WeaponState);
     }
 
     // Update is called once per frame
@@ -221,5 +223,7 @@ public class PlayerController : MonoBehaviour
         {
             animator.runtimeAnimatorController = controller[0];
         }
+
+        GameManager.Instance.WeaponState = weaponState;
     }
 }
