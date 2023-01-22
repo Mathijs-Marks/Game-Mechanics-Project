@@ -121,7 +121,7 @@ public class DamageController : MonoBehaviour
         {
             int maxHeal = Mathf.Max(MaxHealth - Health, 0);
             int actualHeal = Mathf.Min(maxHeal, healthRestored);
-            health += actualHeal;
+            Health += actualHeal;
             CharacterEvents.characterHealed.Invoke(gameObject, actualHeal);
             return true;
         }

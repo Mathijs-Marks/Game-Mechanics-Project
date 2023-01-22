@@ -22,4 +22,7 @@ public class CharacterEvents : MonoBehaviour
 
     // Character loses a life
     public static UnityAction<GameObject> characterLosesLife;
+
+    // Character chooses level
+    public static UnityAction<string> chooseLevel;
 }

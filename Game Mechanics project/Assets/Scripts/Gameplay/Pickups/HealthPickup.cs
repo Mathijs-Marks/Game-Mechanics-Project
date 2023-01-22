@@ -8,14 +8,17 @@ public class HealthPickup : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        DamageController damageable = collision.GetComponent<DamageController>();
-
-        if (damageable && damageable.Health < damageable.MaxHealth)
+        if (collision.tag == "Player")
         {
-            bool wasHealed = damageable.Heal(healthRestore);
+            DamageController damageable = collision.GetComponent<DamageController>();
 
-            if (wasHealed)
-                Destroy(gameObject);
+            if (damageable && damageable.Health < damageable.MaxHealth)
+            {
+                bool wasHealed = damageable.Heal(healthRestore);
+
+                if (wasHealed)
+                    Destroy(gameObject);
+            }
         }
     }
 }

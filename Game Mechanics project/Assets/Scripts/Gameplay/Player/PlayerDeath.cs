@@ -40,6 +40,9 @@ public class PlayerDeath : MonoBehaviour
 
     private void RestartLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        if (GameManager.Instance.Lives > 0)
+        {
+            CharacterEvents.chooseLevel.Invoke(SceneManager.GetActiveScene().name);
+        }
     }
 }

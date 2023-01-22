@@ -23,12 +23,12 @@ public class DoorNextLevel : MonoBehaviour
             CharacterEvents.keysLost.Invoke(keysLost);
             renderer.sprite = doorNewSprite;
             levelCompleted = true;
-            Invoke("CompleteLevel", 2.5f);
+            GameManager.Instance.HighestLevelCompleted++;
+            Invoke("CompleteLevel", 2f);
         }
     }
     private void CompleteLevel()
     {
-        //SceneManager.LoadScene("End Scene");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        CharacterEvents.chooseLevel.Invoke("Blacksmith");
     }
 }

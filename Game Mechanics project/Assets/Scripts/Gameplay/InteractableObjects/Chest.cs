@@ -9,6 +9,7 @@ public class Chest : InteractableObject
     [SerializeField] private GameObject keyPrefab;
     [SerializeField] private float yOffset = 1;
     private int randomAmount;
+    [SerializeField] private bool canSpawnKey = true;
 
     private void Start()
     {
@@ -30,6 +31,10 @@ public class Chest : InteractableObject
             coin.GetComponent<Rigidbody2D>().AddForce(new Vector2(Random.Range(-100f, 100f) + trajectory.x, Random.Range(50f, 100f) + trajectory.y));
             Debug.Log("Coins spawned: " + randomAmount);
         }
-        Instantiate(keyPrefab, new Vector2(transform.position.x, transform.position.y + yOffset), Quaternion.identity);
+
+        if (canSpawnKey)
+        {
+            Instantiate(keyPrefab, new Vector2(transform.position.x, transform.position.y + yOffset), Quaternion.identity);
+        }
     }
 }
