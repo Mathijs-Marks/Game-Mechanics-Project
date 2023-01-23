@@ -29,6 +29,13 @@ public class DoorNextLevel : MonoBehaviour
     }
     private void CompleteLevel()
     {
+        if (SceneManager.GetActiveScene().name == "Level 3")
+        {
+            CharacterEvents.chooseLevel.Invoke("End Scene");
+        }
+        else
+        {
         CharacterEvents.chooseLevel.Invoke("Blacksmith");
+        }
     }
 }

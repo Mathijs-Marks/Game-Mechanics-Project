@@ -26,7 +26,8 @@ public class Boss : MonoBehaviour
     [SerializeField] private Transform playerTransform;
     [SerializeField] private BossDetectPlayer detectPlayer;
     [SerializeField] private GameObject coinPrefab;
-    [SerializeField] private int randomAmountOfCoins;
+    [SerializeField] private GameObject keyPrefab;
+    private int randomAmountOfCoins;
 
     private DamageController damageController;
     private Rigidbody2D rb;
@@ -67,6 +68,7 @@ public class Boss : MonoBehaviour
     public void OnDeath()
     {
         Vector2 trajectory = UnityEngine.Random.insideUnitCircle * 200f;
+
         for (int i = 0; i < randomAmountOfCoins; i++)
         {
             GameObject coin = Instantiate(coinPrefab, transform.position, Quaternion.identity);
@@ -74,6 +76,8 @@ public class Boss : MonoBehaviour
                 UnityEngine.Random.Range(-100f, 100f) + trajectory.x, UnityEngine.Random.Range(50f, 100f) + trajectory.y));
             Debug.Log("Coins spawned: " + randomAmountOfCoins);
         }
+
+        Instantiate(keyPrefab, transform.position, Quaternion.identity);
     }
 
     public void LookAtPlayer()
