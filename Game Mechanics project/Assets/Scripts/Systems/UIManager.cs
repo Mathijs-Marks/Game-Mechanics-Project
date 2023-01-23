@@ -52,13 +52,24 @@ public class UIManager : MonoBehaviour
         healthText.text = healthRestored.ToString();
     }
 
-    public void RollTooltip(GameObject character)
+    public void RollTooltip(GameObject character, int messageNumber)
     {
         Vector3 spawnPosition = Camera.main.WorldToScreenPoint(character.transform.position);
         TMP_Text rollTooltip = Instantiate(rollTooltipPrefab, spawnPosition, Quaternion.identity, gameCanvas.transform)
             .GetComponent<TMP_Text>();
-        
-        rollTooltip.text = "Press Shift to dodge!";
+
+        if (messageNumber == 1)
+        {
+            rollTooltip.text = "Press Shift to dodge!";
+        }
+        else if (messageNumber == 2)
+        {
+            rollTooltip.text = "Press F to attack / interact!";
+        }
+        if (messageNumber == 3)
+        {
+            rollTooltip.text = "Press Space to jump!";
+        }
     }
 
     public void OnExitGame(InputAction.CallbackContext context)
