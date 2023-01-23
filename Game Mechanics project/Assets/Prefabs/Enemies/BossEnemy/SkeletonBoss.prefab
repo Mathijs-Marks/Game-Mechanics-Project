@@ -330,6 +330,7 @@ MonoBehaviour:
   playerTransform: {fileID: 0}
   detectPlayer: {fileID: 0}
   coinPrefab: {fileID: 5675785132699423803, guid: 00e784e4b72ca6648aebac0b091b017e, type: 3}
+  keyPrefab: {fileID: 5482880561472551476, guid: 2c43b4159e694b74e8029e80361a4a0d, type: 3}
   randomAmountOfCoins: 0
 --- !u!114 &145263002675431463
 MonoBehaviour:
