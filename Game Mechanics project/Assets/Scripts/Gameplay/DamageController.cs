@@ -74,6 +74,7 @@ public class DamageController : MonoBehaviour
     [SerializeField] private bool isAlive = true;
     [SerializeField] private bool isInvincible = false;
     [SerializeField] private int armourValue;
+    [SerializeField] private BossHealthBar bossHealthBar;
 
     private float timeSinceHit = 0;
     [SerializeField] private float invincibilityTime = 0.25f;
@@ -82,6 +83,11 @@ public class DamageController : MonoBehaviour
     {
         GlobalReferenceManager.DamageControllerScript = this;
         animator = GetComponent<Animator>();
+
+        if (gameObject.tag == "Boss")
+        {
+            bossHealthBar.SetMaxHealth(maxHealth);
+        }
     }
 
     private void Update()
@@ -122,6 +128,12 @@ public class DamageController : MonoBehaviour
             else
             {
                 Health -= damage;
+
+                if (gameObject.tag == "Boss")
+                {
+                    bossHealthBar.SetHealth(Health);
+                }
+
                 isInvincible = true;
 
                 // Notify other subscribed components that the damageable was hit to handle knockback, etc.
