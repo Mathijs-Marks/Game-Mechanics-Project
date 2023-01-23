@@ -10,6 +10,8 @@ public class DoorNextLevel : MonoBehaviour
     private bool levelCompleted = false;
     [SerializeField] private Sprite doorNewSprite;
     private SpriteRenderer renderer;
+    [SerializeField] private AudioSource levelCompleteSound;
+    [SerializeField] private AudioSource gameCompleteSound;
 
     private void Awake()
     {
@@ -24,7 +26,18 @@ public class DoorNextLevel : MonoBehaviour
             renderer.sprite = doorNewSprite;
             levelCompleted = true;
             GameManager.Instance.HighestLevelCompleted++;
-            Invoke("CompleteLevel", 2f);
+            GameManager.Instance.CurrentHealth = collision.GetComponent<DamageController>().Health;
+
+            if (SceneManager.GetActiveScene().name == "Level 3")
+            {
+                gameCompleteSound.Play();
+                Invoke("CompleteLevel", 4f);
+            }
+            else
+            {
+                levelCompleteSound.Play();
+                Invoke("CompleteLevel", 3f);
+            }
         }
     }
     private void CompleteLevel()

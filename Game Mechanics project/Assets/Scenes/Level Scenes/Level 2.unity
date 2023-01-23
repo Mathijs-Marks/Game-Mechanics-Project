@@ -788,7 +788,7 @@ Transform:
   - {fileID: 1059430361}
   - {fileID: 388855673}
   m_Father: {fileID: 1391300615}
-  m_RootOrder: 22
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &388855672
 GameObject:
@@ -26617,8 +26617,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1986492871
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: ac182a6f122e81747ab10b72e68b5503, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -31311,6 +31311,7 @@ Transform:
   - {fileID: 1140033808}
   - {fileID: 222557207}
   - {fileID: 959041111}
+  - {fileID: 373447411}
   - {fileID: 2118032726}
   - {fileID: 1423819311}
   - {fileID: 1745958671}
@@ -31319,7 +31320,6 @@ Transform:
   - {fileID: 1217742392}
   - {fileID: 1069114607}
   - {fileID: 904368955}
-  - {fileID: 373447411}
   - {fileID: 497800098}
   m_Father: {fileID: 0}
   m_RootOrder: 12
@@ -32946,6 +32946,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 897271997078600664, guid: e0ec53cb363675443b88db3d2be28a5f, type: 3}
+      propertyPath: timeRemaining
+      value: 300
+      objectReference: {fileID: 0}
     - target: {fileID: 897271997078600664, guid: e0ec53cb363675443b88db3d2be28a5f, type: 3}
       propertyPath: damageController
       value: 

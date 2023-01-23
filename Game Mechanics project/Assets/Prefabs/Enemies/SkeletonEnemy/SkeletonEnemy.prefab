@@ -583,9 +583,10 @@ MonoBehaviour:
   healthChanged:
     m_PersistentCalls:
       m_Calls: []
-  maxHealth: 75
-  health: 75
+  maxHealth: 60
+  health: 60
   isAlive: 1
   isInvincible: 0
   armourValue: 0
+  bossHealthBar: {fileID: 0}
   invincibilityTime: 0.425

@@ -15,6 +15,7 @@ public class HealthPickup : MonoBehaviour
             if (damageable && damageable.Health < damageable.MaxHealth)
             {
                 bool wasHealed = damageable.Heal(healthRestore);
+                GameManager.Instance.CurrentHealth = damageable.Health;
 
                 if (wasHealed)
                     Destroy(gameObject);

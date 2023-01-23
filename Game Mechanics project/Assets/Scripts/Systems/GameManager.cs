@@ -41,6 +41,12 @@ public class GameManager : MonoBehaviour
         set { hasArmour = value; }
     }
 
+    public int CurrentHealth
+    {
+        get { return currentHealth; }
+        set { currentHealth = value; }
+    }
+
     // Static reference
     public static GameManager Instance;
 
@@ -51,6 +57,7 @@ public class GameManager : MonoBehaviour
     private int highestLevelCompleted;
     private PlayerWeaponState weaponState;
     private bool hasArmour = false;
+    private int currentHealth;
 
     private void Awake()
     {
@@ -63,6 +70,7 @@ public class GameManager : MonoBehaviour
             // This instance becomes the single instance available
             Instance = this;
             lives = 3;
+            currentHealth = 100;
         }
         // Otherwise check if the instance is not this one
         else if (Instance != this)
@@ -97,7 +105,6 @@ public class GameManager : MonoBehaviour
 
     private void GameOver()
     {
-        Debug.Log("You lost all lives!");
         SceneManager.LoadScene("Level 1");
     }
 

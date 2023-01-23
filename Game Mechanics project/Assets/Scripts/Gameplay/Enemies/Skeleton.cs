@@ -80,7 +80,7 @@ public class Skeleton : MonoBehaviour
 
     private void Start()
     {
-        randomAmountOfCoins = UnityEngine.Random.Range(0, 2);
+        randomAmountOfCoins = UnityEngine.Random.Range(0, 3);
     }
 
     private void Update()
@@ -141,7 +141,6 @@ public class Skeleton : MonoBehaviour
             GameObject coin = Instantiate(coinPrefab, transform.position, Quaternion.identity);
             coin.GetComponent<Rigidbody2D>().AddForce(new Vector2(
                 UnityEngine.Random.Range(-100f, 100f) + trajectory.x, UnityEngine.Random.Range(50f, 100f) + trajectory.y));
-            Debug.Log("Coins spawned: " + randomAmountOfCoins);
         }
     }
 

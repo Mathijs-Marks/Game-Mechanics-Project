@@ -29,7 +29,6 @@ public class Chest : InteractableObject
         {
             GameObject coin = Instantiate(coinPrefab, transform.position, Quaternion.identity);
             coin.GetComponent<Rigidbody2D>().AddForce(new Vector2(Random.Range(-100f, 100f) + trajectory.x, Random.Range(50f, 100f) + trajectory.y));
-            Debug.Log("Coins spawned: " + randomAmount);
         }
 
         if (canSpawnKey)

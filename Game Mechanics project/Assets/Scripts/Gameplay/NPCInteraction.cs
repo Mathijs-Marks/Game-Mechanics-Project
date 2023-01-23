@@ -54,7 +54,7 @@ public class NPCInteraction : MonoBehaviour
         }
         else
         {
-            Debug.Log("You don't have enough coins!");
+            //Debug.Log("You don't have enough coins!");
         }
     }
 
@@ -68,7 +68,7 @@ public class NPCInteraction : MonoBehaviour
         }
         else
         {
-            Debug.Log("You don't have enough coins!");
+            //Debug.Log("You don't have enough coins!");
         }
     }
 
@@ -82,7 +82,7 @@ public class NPCInteraction : MonoBehaviour
         }
         else
         {
-            Debug.Log("You don't have enough coins!");
+            //Debug.Log("You don't have enough coins!");
         }
     }
 
@@ -96,7 +96,7 @@ public class NPCInteraction : MonoBehaviour
         }
         else
         {
-            Debug.Log("You don't have enough coins!");
+            //Debug.Log("You don't have enough coins!");
         }
     }
 
@@ -110,7 +110,7 @@ public class NPCInteraction : MonoBehaviour
         }
         else
         {
-            Debug.Log("You don't have enough coins!");
+            //Debug.Log("You don't have enough coins!");
         }
     }
 }

@@ -428,7 +428,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 6
+  m_text: 15
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7cf408fdfcb94e24a99dd6b18214fafa, type: 2}
   m_sharedMaterial: {fileID: -8533369180384071018, guid: 7cf408fdfcb94e24a99dd6b18214fafa, type: 2}
@@ -1134,11 +1134,11 @@ MonoBehaviour:
   canvas: {fileID: 1384762768839405784}
   potionPrefab: {fileID: 8900317262868376097, guid: 7b09e99b62224a14d8fef16f0ff0ab0d, type: 3}
   armourPrefab: {fileID: 8900317262868376097, guid: ccdec61c3a043e3499257e254105ac15, type: 3}
-  swordCost: 3
-  bowCost: 6
-  spearCost: 9
-  potionCost: 2
-  armourCost: 12
+  swordCost: 5
+  bowCost: 15
+  spearCost: 25
+  potionCost: 3
+  armourCost: 10
 --- !u!1 &1384762768988801764
 GameObject:
   m_ObjectHideFlags: 0
@@ -1205,7 +1205,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3
+  m_text: 5
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7cf408fdfcb94e24a99dd6b18214fafa, type: 2}
   m_sharedMaterial: {fileID: -8533369180384071018, guid: 7cf408fdfcb94e24a99dd6b18214fafa, type: 2}
@@ -1799,7 +1799,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 9
+  m_text: 25
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7cf408fdfcb94e24a99dd6b18214fafa, type: 2}
   m_sharedMaterial: {fileID: -8533369180384071018, guid: 7cf408fdfcb94e24a99dd6b18214fafa, type: 2}
@@ -2241,7 +2241,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 2
+  m_text: 3
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7cf408fdfcb94e24a99dd6b18214fafa, type: 2}
   m_sharedMaterial: {fileID: -8533369180384071018, guid: 7cf408fdfcb94e24a99dd6b18214fafa, type: 2}
@@ -2415,7 +2415,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 12
+  m_text: 10
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7cf408fdfcb94e24a99dd6b18214fafa, type: 2}
   m_sharedMaterial: {fileID: -8533369180384071018, guid: 7cf408fdfcb94e24a99dd6b18214fafa, type: 2}

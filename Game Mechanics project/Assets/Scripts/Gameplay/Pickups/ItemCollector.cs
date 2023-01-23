@@ -58,10 +58,13 @@ public class ItemCollector : MonoBehaviour
 
     private void CollectCoin(Collider2D collision)
     {
-        collectSoundEffect.Play();
-        Destroy(collision.gameObject.transform.parent.gameObject);
-        GameManager.Instance.Coins++;
-        UpdateCoins(GameManager.Instance.Coins);
+        if (collision.tag == "Coin")
+        {
+            collectSoundEffect.Play();
+            Destroy(collision.gameObject.transform.parent.gameObject);
+            GameManager.Instance.Coins++;
+            UpdateCoins(GameManager.Instance.Coins);
+        }
     }
 
     public void UpdateCoins(int amountOfCoins)

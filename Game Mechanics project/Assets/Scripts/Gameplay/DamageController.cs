@@ -37,7 +37,6 @@ public class DamageController : MonoBehaviour
         {
             isAlive = value;
             animator.SetBool(AnimationStrings.isAlive, value);
-            Debug.Log("IsAlive set: " + value);
 
             if (value == false)
             {
@@ -83,6 +82,12 @@ public class DamageController : MonoBehaviour
     {
         GlobalReferenceManager.DamageControllerScript = this;
         animator = GetComponent<Animator>();
+
+        if (gameObject.tag == "Player")
+        {
+            Health = GameManager.Instance.CurrentHealth;
+            healthChanged?.Invoke(GameManager.Instance.CurrentHealth, maxHealth);
+        }
 
         if (gameObject.tag == "Boss")
         {

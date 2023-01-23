@@ -46,7 +46,7 @@ public class Boss : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
-        randomAmountOfCoins = Random.Range(2, 5);
+        randomAmountOfCoins = Random.Range(3, 6);
     }
 
     private void Update()
@@ -54,7 +54,7 @@ public class Boss : MonoBehaviour
         if (AttackCooldown > 0)
             AttackCooldown -= Time.deltaTime;
 
-        if (damageController.Health <= 50)
+        if (damageController.Health <= 100)
         {
             animator.SetBool(AnimationStrings.isEnraged, true);
         }
@@ -74,7 +74,6 @@ public class Boss : MonoBehaviour
             GameObject coin = Instantiate(coinPrefab, transform.position, Quaternion.identity);
             coin.GetComponent<Rigidbody2D>().AddForce(new Vector2(
                 UnityEngine.Random.Range(-100f, 100f) + trajectory.x, UnityEngine.Random.Range(50f, 100f) + trajectory.y));
-            Debug.Log("Coins spawned: " + randomAmountOfCoins);
         }
 
         Instantiate(keyPrefab, transform.position, Quaternion.identity);
