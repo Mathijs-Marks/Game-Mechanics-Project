@@ -8,6 +8,8 @@ TagManager:
   - Collectible
   - Trap
   - Key
+  - Potion
+  - Armour
   layers:
   - Default
   - TransparentFX

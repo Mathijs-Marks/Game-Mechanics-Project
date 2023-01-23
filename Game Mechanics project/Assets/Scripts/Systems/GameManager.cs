@@ -35,6 +35,12 @@ public class GameManager : MonoBehaviour
         set { highestLevelCompleted = value; }
     }
 
+    public bool HasArmour
+    {
+        get { return hasArmour; }
+        set { hasArmour = value; }
+    }
+
     // Static reference
     public static GameManager Instance;
 
@@ -44,6 +50,7 @@ public class GameManager : MonoBehaviour
     private int keys;
     private int highestLevelCompleted;
     private PlayerWeaponState weaponState;
+    private bool hasArmour = false;
 
     private void Awake()
     {
@@ -83,6 +90,7 @@ public class GameManager : MonoBehaviour
             //TODO: When using invoke, both restartlevel and gameover try to execute after 3 lives lost.
             // This results in first the level restarting, then the player being set back to level 1, then infinitely loading level 1
             lives = 3;
+            hasArmour = false;
             Invoke("GameOver", 2f);
         }
     }
