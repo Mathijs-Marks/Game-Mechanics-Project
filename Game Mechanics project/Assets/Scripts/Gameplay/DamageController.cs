@@ -61,6 +61,11 @@ public class DamageController : MonoBehaviour
         set { isInvincible = value; }
     }
 
+    public float InvincibilityTime
+    {
+        get { return invincibilityTime; }
+        set { invincibilityTime = value; }
+    }
 
     private Animator animator;
     

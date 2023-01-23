@@ -19,4 +19,5 @@ internal class AnimationStrings
     internal static string attackCooldown = "attackCooldown";
     internal static string rollTrigger = "roll";
     internal static string rollCooldown = "rollCooldown";
+    internal static string isEnraged = "isEnraged";
 }

@@ -10,6 +10,7 @@ TagManager:
   - Key
   - Potion
   - Armour
+  - Boss
   layers:
   - Default
   - TransparentFX
