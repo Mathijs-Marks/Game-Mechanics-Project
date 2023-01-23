@@ -34,6 +34,14 @@ public class ItemCollector : MonoBehaviour
         {
             PlayCollectSoundEffect();
         }
+        else if (collision.gameObject.CompareTag("Potion"))
+        {
+            PlayCollectSoundEffect();
+        }
+        else if (collision.gameObject.CompareTag("Armour"))
+        {
+            PlayCollectSoundEffect();
+        }
         else if (collision.gameObject.name == "Sword")
         {
             CollectWeapon(collision, PlayerWeaponState.Sword);

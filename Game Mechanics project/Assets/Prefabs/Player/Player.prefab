@@ -856,6 +856,7 @@ MonoBehaviour:
   health: 100
   isAlive: 1
   isInvincible: 0
+  armourValue: 5
   invincibilityTime: 0.25
 --- !u!114 &7476664654788313045
 MonoBehaviour:

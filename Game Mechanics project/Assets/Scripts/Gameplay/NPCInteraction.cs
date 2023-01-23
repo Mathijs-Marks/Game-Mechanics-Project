@@ -7,11 +7,13 @@ public class NPCInteraction : MonoBehaviour
     private Animator animator;
     [SerializeField] private Canvas canvas;
     [SerializeField] private GameObject potionPrefab;
+    [SerializeField] private GameObject armourPrefab;
 
-    private int swordCost = 3;
-    private int bowCost = 6;
-    private int spearCost = 9;
-    private int potionCost = 2;
+    [SerializeField] private int swordCost = 3;
+    [SerializeField] private int bowCost = 6;
+    [SerializeField] private int spearCost = 9;
+    [SerializeField] private int potionCost = 2;
+    [SerializeField] private int armourCost = 12;
 
     private void Awake()
     {
@@ -91,6 +93,20 @@ public class NPCInteraction : MonoBehaviour
             int updatedCoins = GameManager.Instance.Coins -= potionCost;
             GlobalReferenceManager.ItemCollectorScript.UpdateCoins(updatedCoins);
             Instantiate(potionPrefab, transform.position, Quaternion.identity);
+        }
+        else
+        {
+            Debug.Log("You don't have enough coins!");
+        }
+    }
+
+    public void BuyArmour()
+    {
+        if (GameManager.Instance.Coins >= armourCost)
+        {
+            int updatedCoins = GameManager.Instance.Coins -= armourCost;
+            GlobalReferenceManager.ItemCollectorScript.UpdateCoins(updatedCoins);
+            Instantiate(armourPrefab, transform.position, Quaternion.identity);
         }
         else
         {

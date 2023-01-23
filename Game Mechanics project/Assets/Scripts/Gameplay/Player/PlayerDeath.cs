@@ -35,7 +35,6 @@ public class PlayerDeath : MonoBehaviour
     {
         damageable.IsAlive = false;
         animator.SetTrigger(AnimationStrings.deathTrigger); // Set trigger for animator, which then executes RestartLevel()
-        //rb.bodyType = RigidbodyType2D.Static;
     }
 
     private void RestartLevel()

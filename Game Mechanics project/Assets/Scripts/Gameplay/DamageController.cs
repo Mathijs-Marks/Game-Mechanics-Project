@@ -68,6 +68,7 @@ public class DamageController : MonoBehaviour
     [SerializeField] private int health = 100;
     [SerializeField] private bool isAlive = true;
     [SerializeField] private bool isInvincible = false;
+    [SerializeField] private int armourValue;
 
     private float timeSinceHit = 0;
     [SerializeField] private float invincibilityTime = 0.25f;
@@ -98,16 +99,34 @@ public class DamageController : MonoBehaviour
     {
         if (IsAlive && !isInvincible)
         {
-            Health -= damage;
-            isInvincible = true;
+            if (GameManager.Instance.HasArmour)
+            {
+                int reducedDamage = damage - armourValue;
 
-            // Notify other subscribed components that the damageable was hit to handle knockback, etc.
-            animator.SetTrigger(AnimationStrings.hitTrigger);
-            LockVelocity = true;
-            damageableHit?.Invoke(damage, knockback);
-            CharacterEvents.characterDamaged.Invoke(gameObject, damage);
+                Health -= reducedDamage;
+                isInvincible = true;
 
-            return true;
+                // Notify other subscribed components that the damageable was hit to handle knockback, etc.
+                animator.SetTrigger(AnimationStrings.hitTrigger);
+                LockVelocity = true;
+                damageableHit?.Invoke(reducedDamage, knockback);
+                CharacterEvents.characterDamaged.Invoke(gameObject, reducedDamage);
+
+                return true;
+            }
+            else
+            {
+                Health -= damage;
+                isInvincible = true;
+
+                // Notify other subscribed components that the damageable was hit to handle knockback, etc.
+                animator.SetTrigger(AnimationStrings.hitTrigger);
+                LockVelocity = true;
+                damageableHit?.Invoke(damage, knockback);
+                CharacterEvents.characterDamaged.Invoke(gameObject, damage);
+
+                return true;
+            }
         }
         
         // Unable to be hit.

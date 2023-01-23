@@ -20527,6 +20527,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 679478775}
     m_Modifications:
+    - target: {fileID: 398394069584315718, guid: a8f7b418b0c35d241a5c6862ef399dd8, type: 3}
+      propertyPath: attackDamage
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1348488250123905273, guid: a8f7b418b0c35d241a5c6862ef399dd8, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -31229,7 +31233,7 @@ Transform:
   - {fileID: 2068006780}
   - {fileID: 1159556829}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1453671326
 PrefabInstance:
@@ -31629,7 +31633,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1606186724 stripped
 Transform:
@@ -33016,7 +33020,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7476664654788313041, guid: 9040ebd0806e97346b181daa3508e7a2, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7476664654788313041, guid: 9040ebd0806e97346b181daa3508e7a2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -33069,10 +33073,6 @@ PrefabInstance:
     - target: {fileID: 7476664654788313053, guid: 9040ebd0806e97346b181daa3508e7a2, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 9198634490702998677, guid: 9040ebd0806e97346b181daa3508e7a2, type: 3}
-      propertyPath: health
-      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9040ebd0806e97346b181daa3508e7a2, type: 3}
